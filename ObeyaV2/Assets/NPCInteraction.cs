@@ -30,10 +30,14 @@ public class NPCInteraction : MonoBehaviour
             dialogueManager.ShowCannotTalkMessage();
             interactivePrompt.promptText.text = interactivePrompt.interactionText;
         }
-        if(currentNPC.IsDead())
+
+        if (currentNPC != null)
         {
-            interactivePrompt.promptText.text = interactivePrompt.isDeadInteractionText;
-            Debug.Log("Cannot interact with a dead NPC.");
+            if (currentNPC.IsDead())
+            {
+                interactivePrompt.promptText.text = interactivePrompt.isDeadInteractionText;
+                Debug.Log("Cannot interact with a dead NPC.");
+            }
         }
     }
 
