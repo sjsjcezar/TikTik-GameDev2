@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79ad233706a0fb24da5c919d1d9b4b40, type: 3}
+  m_Name: Night2Radio
+  m_EditorClassIdentifier: 
+  dialogueEntries:
+  - lines: As the nights roll on, the aswang sightings keep coming.
+    voiceLine: {fileID: 0}
+    highlights: []
+  - lines: People are vanishing without a trace, swallowed by the dark.
+    voiceLine: {fileID: 0}
+    highlights: []
+  - lines: Rumors say they disappear... into the shadows.
+    voiceLine: {fileID: 0}
+    highlights: []
+  - lines: "Stay alert\u2014don't trust strangers. Watch their eyes closely."
+    voiceLine: {fileID: 0}
+    highlights:
+    - phrase: eyes
+      highlightColor: {r: 0.06051977, g: 0.754717, b: 0.11375044, a: 0}
+  - lines: Remember, the eyes of an aswang are pure darkness, no soul behind them.
+    voiceLine: {fileID: 0}
+    highlights:
+    - phrase: eyes
+      highlightColor: {r: 0.06051977, g: 0.754717, b: 0.11375044, a: 0}
+    - phrase: pure darkness
+      highlightColor: {r: 0.7529412, g: 0.16347119, b: 0.05882353, a: 0}
+    - phrase: no soul
+      highlightColor: {r: 0.7529412, g: 0.16347119, b: 0.05882353, a: 0}

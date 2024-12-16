@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79ad233706a0fb24da5c919d1d9b4b40, type: 3}
+  m_Name: Night1Radio
+  m_EditorClassIdentifier: 
+  dialogueEntries:
+  - lines: Good evening, survivors.
+    voiceLine: {fileID: 8300000, guid: 6a747426083ef514297227e2d9d762e8, type: 3}
+    highlights:
+    - phrase: 
+      highlightColor: {r: 0, g: 0, b: 0, a: 0}
+  - lines: We've got fresh reports about the aswang haunting our village.
+    voiceLine: {fileID: 8300000, guid: 046fe0d2632c01548bb109b8e6075e79, type: 3}
+    highlights:
+    - phrase: fresh reports
+      highlightColor: {r: 0.10360656, g: 0.6226415, b: 0.049928807, a: 0}
+  - lines: Right now, I'm with Aleng Tso...
+    voiceLine: {fileID: 8300000, guid: 9e21ba7e8fa9e1d419cce3d830403776, type: 3}
+    highlights: []
+  - lines: She claims to see them lurking in the shadows...
+    voiceLine: {fileID: 8300000, guid: 1758e4a9d2e50494bab533ecdaf87fae, type: 3}
+    highlights: []
+  - lines: Oh God...
+    voiceLine: {fileID: 8300000, guid: bcfac97819be31f4995ecbb3a65b3d8b, type: 3}
+    highlights: []
+  - lines: Oh God... I saw an aswang right here!
+    voiceLine: {fileID: 8300000, guid: 4ccb3e1d8bee95e4a8da4933eeb65cb1, type: 3}
+    highlights: []
+  - lines: It had long limbs... and no heart.
+    voiceLine: {fileID: 8300000, guid: 7d47b908dc0f9724dbb4bf9ef6885c97, type: 3}
+    highlights: []
+  - lines: I'm scared...
+    voiceLine: {fileID: 8300000, guid: 1b1c4ae5ea9220b41b603308dffd38f1, type: 3}
+    highlights: []
