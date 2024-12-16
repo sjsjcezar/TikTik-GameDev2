@@ -4,6 +4,7 @@ using TMPro;
 
 public class RadioSystem : MonoBehaviour
 {
+    public TextMeshProUGUI radioUIText;
     public TextMeshProUGUI radioText;
     public TextMeshProUGUI mumblingGrowlText;
     public NightManager nightManager;
@@ -15,7 +16,8 @@ public class RadioSystem : MonoBehaviour
     private int currentLineIndex = 0;
     private bool isInteracting = false;
     private bool hasFinishedDialogue = false; // Track if all lines have been traversed
-    private int currentNightIndex = 0; // Track the current night index
+    private bool hasLearnedCurrentNightFeature = false;
+    public int currentNightIndex; // Track the current night index
     private bool playerInRange = false;
 
     public GameObject radioUIPanel;
@@ -62,6 +64,7 @@ public class RadioSystem : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = true;
+            radioUIText.gameObject.SetActive(true);
         }
     }
 
@@ -70,6 +73,7 @@ public class RadioSystem : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = false;
+            radioUIText.gameObject.SetActive(false);
             StopInteracting();
         }
     }
@@ -92,7 +96,8 @@ public class RadioSystem : MonoBehaviour
 
     private void ShowNextLine()
     {
-        if (currentNightIndex < nightDialogues.Length && currentLineIndex < nightDialogues[currentNightIndex].dialogueEntries.Count)
+        currentNightIndex = nightManager.currentNight - 1;
+        if (currentNightIndex < nightDialogues.Length && currentLineIndex < nightDialogues[currentNightIndex].dialogueEntries.Count && hasLearnedCurrentNightFeature == false)
         {
             var entry = nightDialogues[currentNightIndex].dialogueEntries[currentLineIndex];
             radioText.text = entry.lines;
@@ -102,11 +107,14 @@ public class RadioSystem : MonoBehaviour
         }
         else
         {
+            
+            radioText.text = "*bzzzzz*";
             hasFinishedDialogue = true;
             LearnFeature(currentNightIndex);
             leaveButton.SetActive(true); 
-            currentLineIndex = 0; 
-            currentNightIndex++;
+            currentLineIndex = 0;
+            hasLearnedCurrentNightFeature = true;
+            // currentNightIndex++;
         }
         
 
@@ -139,23 +147,35 @@ public class RadioSystem : MonoBehaviour
         switch (nightIndex)
         {
             case 0:
+                if (hasLearnedFeature1 == false)
+                {
+                    journalText.text += "\n" + "Look at their Arms";
+                }
                 hasLearnedFeature1 = true; // Learned elongated limbs on Night 1
-                journalText.text += "\n" + "Look at their Arms";
                 Debug.Log("Learned feature 1.");
                 break;
             case 1:
+                if (hasLearnedFeature2 == false)
+                {
+                    journalText.text += "\n" + "Look at their Eyes";
+                }
                 hasLearnedFeature2 = true; // Learned about eyes on Night 2
-                journalText.text += "\n" + "Look at their Eyes";
                 Debug.Log("Learned feature 2.");
                 break;
             case 2:
+                if (hasLearnedFeature3 == false)
+                {
+                    journalText.text += "\n" + "Look at their Teeth";
+                }
                 hasLearnedFeature3 = true; // Learned about sharp teeth on Night 3
-                journalText.text += "\n" + "Look at their Teeth";
                 Debug.Log("Learned feature 3.");
                 break;
             case 3:
+                if (hasLearnedFeature4 == false)
+                {
+                    journalText.text += "\n" + "Look at their Smiles";
+                }
                 hasLearnedFeature4 = true; // Learned about false smiles on Night 4
-                journalText.text += "\n" + "Look at their Smiles";
                 Debug.Log("Learned feature 4.");
                 break;
             default:
@@ -181,6 +201,11 @@ public class RadioSystem : MonoBehaviour
             case 4: return hasLearnedFeature4;
             default: return false;
         }
+    }
+
+    public void ResetCurrentNightFeature()
+    {
+        hasLearnedCurrentNightFeature = false;
     }
 
     public void DisableJournal()

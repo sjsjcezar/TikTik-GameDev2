@@ -17,6 +17,7 @@ public class NightManager : MonoBehaviour
 
     private MonoBehaviour currentNightScript;
     private EnergyManager energyManager;
+    private RadioSystem radioSystem;
 
     // Positions where guests will go once accepted, assigned in the inspector
     public Transform[] guestPositionsInside;
@@ -29,6 +30,7 @@ public class NightManager : MonoBehaviour
         currentNightScript = night1Script;
         night1Script.enabled = true; // Enable the first night script
         energyManager = FindObjectOfType<EnergyManager>();
+        radioSystem = FindObjectOfType<RadioSystem>();
     }
 
     public void AddGuest(GameObject guest)
@@ -82,6 +84,7 @@ public class NightManager : MonoBehaviour
         
         energyManager.IncreaseEnergy();
         energyManager.UpdateEnergy();
+        radioSystem.ResetCurrentNightFeature();
         // Reset guests for the new night
         FindObjectOfType<GuestManager>().PrepareGuestsForNewNight();
     }
