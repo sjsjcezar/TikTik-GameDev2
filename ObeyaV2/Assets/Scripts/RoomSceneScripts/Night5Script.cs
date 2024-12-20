@@ -7,10 +7,13 @@ public class Night5Script : NightBaseScript
 {
     public GameObject endingPanel; // Reference to the UI Panel for ending text
     public TextMeshProUGUI endingText; // Reference to the TextMesh Pro component for displaying the ending
-
+    
+    private EnergyManager energyManager;
+    private RadioSystem radioSystem;
     // Keep this protected
     protected override void OnNightComplete()
     {
+        
         Debug.Log("Night 5 complete. Game is done.");
         ShowEnding(); // Show the ending based on the accepted guests
     }
@@ -24,7 +27,9 @@ public class Night5Script : NightBaseScript
     private void ShowEnding()
     {
         NightManager nightManager = FindObjectOfType<NightManager>();
-
+        energyManager = FindObjectOfType<EnergyManager>();
+        radioSystem = FindObjectOfType<RadioSystem>();
+        
         int humansAccepted = 0;
         int aswangsAccepted = 0;
 
@@ -44,7 +49,6 @@ public class Night5Script : NightBaseScript
         // Log how many humans and aswangs were accepted
         Debug.Log($"Humans Accepted: {humansAccepted}");
         Debug.Log($"Aswangs Accepted: {aswangsAccepted}");
-
         // Check conditions for the ending
         if (humansAccepted >= 8 && aswangsAccepted == 0)
         {

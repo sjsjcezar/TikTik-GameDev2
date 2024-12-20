@@ -216,5 +216,6 @@ public class RadioSystem : MonoBehaviour
     public void EnableJournal()
     {
         journal.SetActive(true);
+        
     }
 }

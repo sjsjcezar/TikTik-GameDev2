@@ -112,12 +112,12 @@ MonoBehaviour:
   - OMG
   - nO WAY!
   - PLSS SPEED LET ME IN
-  option1ButtonText: Who are you??
-  option1_1ButtonText: What are you doing here??
-  option2ButtonText: ION LIKE YOUUUU
-  option2_1ButtonText: I don't like you.
+  option1ButtonText: Who are you?
+  option1_1ButtonText: Where are you from?
+  option2ButtonText: What brings you here?
+  option2_1ButtonText: Are you alone?
   insideDialogueOption1: What do you know about Aswangs?
-  insideDialogueOption2: Do you know about the Eternal Darkness?
+  insideDialogueOption2: Do you know about this "Eternal Eclipse?"
   insideDialogueOption3: I need to check on you.
   insideDialogueOption4: I need to go.
   featureDialoguesList:

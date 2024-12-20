@@ -53,6 +53,7 @@ public class GuestManager : MonoBehaviour
     private bool isInOption2Dialogue = false;
     private bool isInOption2_1Dialogue = false;
 
+    private EnergyManager energyManager;
     private RadioSystem radioSystem;
 
     private void Start()
@@ -60,6 +61,7 @@ public class GuestManager : MonoBehaviour
         // Get the BedInteraction reference
         bedInteraction = FindObjectOfType<BedInteraction>();
         radioSystem = FindObjectOfType<RadioSystem>();
+        energyManager = FindObjectOfType<EnergyManager>();
         
         // Setup UI buttons
         acceptButton.onClick.AddListener(AcceptGuest);
@@ -166,7 +168,12 @@ public class GuestManager : MonoBehaviour
             }
             // Trigger the OnGuestRejected event to re-enable door interaction
             OnGuestRejected?.Invoke();
+            radioSystem.EnableJournal();
+            Debug.Log("Journal Enabled Called in Guest Manager");
+            energyManager.EnableEnergy();
+            Debug.Log("Energy Enabled Called in Guest Manager");
         }
+        
     }
 
     private void ShowNoMoreGuestsMessage()

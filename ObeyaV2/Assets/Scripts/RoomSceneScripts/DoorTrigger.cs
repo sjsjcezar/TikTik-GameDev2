@@ -12,6 +12,7 @@ public class DoorTrigger : MonoBehaviour
     
     private RadioSystem radioSystem;
     private EnergyManager energyManager;
+    private NightManager nightManager;
 
     void Start()
     {
@@ -20,6 +21,7 @@ public class DoorTrigger : MonoBehaviour
             promptText.gameObject.SetActive(false);
         }
         guestManager.OnNewNightStarted += ReEnableInteraction;
+        nightManager = FindObjectOfType<NightManager>();
         radioSystem = FindObjectOfType<RadioSystem>();
         energyManager = FindObjectOfType<EnergyManager>();
     }
@@ -76,7 +78,7 @@ public class DoorTrigger : MonoBehaviour
 
         // Interact with the door through GuestManager
         guestManager.InteractWithDoor();
-
+        
         // Subscribe to events in GuestManager to re-enable interaction
         guestManager.OnGuestAccepted += ReEnableInteraction;
         guestManager.OnGuestRejected += ReEnableInteraction;
@@ -86,8 +88,13 @@ public class DoorTrigger : MonoBehaviour
     {
         canInteract = true;
         UpdatePromptText();
-        radioSystem.EnableJournal();
-        energyManager.EnableEnergy();
+        if (nightManager.currentNight != 5)
+        {
+            radioSystem.EnableJournal();
+            energyManager.EnableEnergy();
+        }
+        Debug.Log("Journal Enabled Called in Door Trigger");
+        Debug.Log("Energy Enabled Called in Door Trigger");
         // Unsubscribe from events
         guestManager.OnGuestAccepted -= ReEnableInteraction;
         guestManager.OnGuestRejected -= ReEnableInteraction;
