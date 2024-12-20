@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: NPCDialogue
   m_EditorClassIdentifier: 
   npcName: Guest3
-  npcSprite: {fileID: 21300000, guid: 6a6b4c5eaa195c4428be9bd845f98d71, type: 3}
+  npcSprite: {fileID: 21300000, guid: 057c13f7c1e8baf41887d39d6dd8c79d, type: 3}
+  killedNpcSprite: {fileID: 0}
   aswangResponses:
   - What do I know about aswangs?
   - They are not just the stories told to frighten children.
@@ -81,6 +82,14 @@ MonoBehaviour:
   option2_1Responses:
   - Alone? It is a lonely existence, that is for sure. But in this darkness, it is
     often better to be isolated.
+  option1ButtonText: 
+  option1_1ButtonText: 
+  option2ButtonText: 
+  option2_1ButtonText: 
+  insideDialogueOption1: 
+  insideDialogueOption2: 
+  insideDialogueOption3: 
+  insideDialogueOption4: 
   featureDialoguesList:
   - featureName: Elongated Limbs
     featureImage: {fileID: 21300000, guid: 6e6540aaa0a2d93409a3f8a8f857f70f, type: 3}

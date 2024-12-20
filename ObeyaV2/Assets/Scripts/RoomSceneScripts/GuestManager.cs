@@ -470,7 +470,7 @@ public class GuestManager : MonoBehaviour
     public void PrepareGuestsForNewNight()
     {
         guestsProcessed = 0;
-        currentGuestIndex = 0;
+      //  currentGuestIndex = 0;
         OnNewNightStarted?.Invoke();
     }
 }

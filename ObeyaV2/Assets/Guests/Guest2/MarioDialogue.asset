@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MarioDialogue
   m_EditorClassIdentifier: 
   npcName: Guest2
-  npcSprite: {fileID: 21300000, guid: 16a6a55f15f88c34f9e81d561592ad4b, type: 3}
+  npcSprite: {fileID: 21300000, guid: 954868a4ae70c7e47a60f17cc4ff90c5, type: 3}
   killedNpcSprite: {fileID: 0}
   aswangResponses:
   - Well, for sure, Tik-tiks are terrified of garlic.
@@ -121,6 +121,10 @@ MonoBehaviour:
   option1_1ButtonText: Wsggggg
   option2ButtonText: ok but who tf is u
   option2_1ButtonText: naw dawg i hate you
+  insideDialogueOption1: 
+  insideDialogueOption2: 
+  insideDialogueOption3: 
+  insideDialogueOption4: 
   featureDialoguesList:
   - featureName: Elongated Limbs
     featureImage: {fileID: 21300000, guid: 25e0a4615b6924b4dbc8d2c86093357a, type: 3}
