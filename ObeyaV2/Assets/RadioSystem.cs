@@ -42,7 +42,7 @@ public class RadioSystem : MonoBehaviour
 
     private void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.Q) && dialogueManager.isInDialogue == false)
+        if (playerInRange && Input.GetKeyDown(KeyCode.Q))
         {
             if (!isInteracting)
             {
