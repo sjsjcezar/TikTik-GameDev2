@@ -93,8 +93,6 @@ public class DoorTrigger : MonoBehaviour
             radioSystem.EnableJournal();
             energyManager.EnableEnergy();
         }
-        Debug.Log("Journal Enabled Called in Door Trigger");
-        Debug.Log("Energy Enabled Called in Door Trigger");
         // Unsubscribe from events
         guestManager.OnGuestAccepted -= ReEnableInteraction;
         guestManager.OnGuestRejected -= ReEnableInteraction;

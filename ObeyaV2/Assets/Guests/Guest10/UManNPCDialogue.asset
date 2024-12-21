@@ -53,7 +53,8 @@ MonoBehaviour:
   dialoguesNight3:
   - Good evening.
   dialoguesNight4:
-  - Gah. This place is unholy.
+  - Your kindness is noted.
+  - I will not forget it.
   dialoguesNight5: []
   introductoryDialogue:
   - Oi, hey! You in there?
@@ -101,20 +102,20 @@ MonoBehaviour:
   - featureName: Elongated Limbs
     featureImage: {fileID: 21300000, guid: 6e6540aaa0a2d93409a3f8a8f857f70f, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - Fine, take a look.
     hearOutDialogue: 
   - featureName: Dark Eyes
     featureImage: {fileID: 21300000, guid: e9b468827541534419765f86eda39335, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - What do you see in them?
     hearOutDialogue: 
   - featureName: Sharp Teeth
     featureImage: {fileID: 21300000, guid: e3456448532adc849adba0989a0da553, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - Let's get this over with.
     hearOutDialogue: 
   - featureName: False Smile
     featureImage: {fileID: 0}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - This is what I've got. Deal with it.
     hearOutDialogue: 

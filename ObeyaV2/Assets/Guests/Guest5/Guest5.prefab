@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 2112086891068640090}
   - component: {fileID: 5861473343096087729}
   m_Layer: 0
-  m_Name: Guest5 1
+  m_Name: Guest5
   m_TagString: Aswang
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2218889738870548009}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -67.96, y: 28.63, z: -7.2555923}
   m_LocalScale: {x: 1.14, y: 1.14, z: 1.14}
   m_ConstrainProportionsScale: 1
@@ -206,7 +206,7 @@ Animator:
   m_GameObject: {fileID: 2218889738870548009}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d932ebbd4fa97d14f9eb6624b758b8fe, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -232,7 +232,7 @@ MonoBehaviour:
   npcDialogue: {fileID: 11400000, guid: 0649083e78073c1409086342bf9371e2, type: 2}
   spriteRenderer: {fileID: 0}
   deadBodySprite: {fileID: 0}
-  uniqueID: Guest4
+  uniqueID: Guest5
 --- !u!114 &2112086891068640090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,8 +246,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptText: {fileID: 0}
-  interactionText: '[Q] Rodrigo'
-  isDeadInteractionText: Dead Rodrigo
+  interactionText: '[Q] Bruno'
+  isDeadInteractionText: Dead Bruno
 --- !u!114 &5861473343096087729
 MonoBehaviour:
   m_ObjectHideFlags: 0

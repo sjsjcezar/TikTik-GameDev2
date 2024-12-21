@@ -40,13 +40,17 @@ MonoBehaviour:
   - This smile?
   - Genuine as they come!
   dialoguesNight1:
-  - Hi there.
+  - "Thanks for letting ol\u2019 Bruno crash here."
+  - "Don\u2019t worry, I\u2019m good company!"
   dialoguesNight2:
-  - What a day.
+  - "These walls feel thin, don\u2019t they?"
+  - " Like... they\u2019re breathing."
   dialoguesNight3:
-  - Good evening.
+  - Funny thing about survival...
+  - "Sometimes it makes you wonder if it\u2019s worth it."
   dialoguesNight4:
-  - Hello there.
+  - "Heh... you ever feel like something\u2019s watching you?"
+  - Yeah... me too.
   dialoguesNight5: []
   introductoryDialogue:
   - Hey there! Anybody home?
@@ -80,20 +84,20 @@ MonoBehaviour:
   - featureName: Elongated Limbs
     featureImage: {fileID: 21300000, guid: 6e6540aaa0a2d93409a3f8a8f857f70f, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - Go ahead, check.
     hearOutDialogue: 
   - featureName: Dark Eyes
     featureImage: {fileID: 21300000, guid: e9b468827541534419765f86eda39335, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - What are you trying to find?
     hearOutDialogue: 
   - featureName: Sharp Teeth
     featureImage: {fileID: 21300000, guid: e3456448532adc849adba0989a0da553, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - Just don't expect anything fancy.
     hearOutDialogue: 
   - featureName: False Smile
     featureImage: {fileID: 0}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - I'm not really in the mood, but okay.
     hearOutDialogue: 

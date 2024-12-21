@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 6615017151942696196}
   - component: {fileID: 5963378193237890233}
   - component: {fileID: 6075291894925302070}
+  - component: {fileID: 6402664608262806224}
+  - component: {fileID: 1419826247754813968}
   m_Layer: 0
   m_Name: Guest2
   m_TagString: Human
@@ -32,8 +34,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.356111, y: 1.356111, z: 1.356111}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -77,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 75aa65e7618c063419599c4cf0260232, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -229,4 +231,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcDialogue: {fileID: 11400000, guid: d5bc571a2e7df99499b6ff18df7aa0cd, type: 2}
   spriteRenderer: {fileID: -1763075326112829143}
-  deadBodySprite: {fileID: 0}
+  deadBodySprite: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
+  uniqueID: Guest2
+--- !u!114 &6402664608262806224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8589021318165902313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e59ca7d7dfe5d042b2962116ec2264a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  promptText: {fileID: 0}
+  interactionText: '[Q] Amnah'
+  isDeadInteractionText: Dead Amnah
+--- !u!114 &1419826247754813968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8589021318165902313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93dc3fb14b18b44788f59b0204a97db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcDialogue: {fileID: 11400000, guid: d5bc571a2e7df99499b6ff18df7aa0cd, type: 2}

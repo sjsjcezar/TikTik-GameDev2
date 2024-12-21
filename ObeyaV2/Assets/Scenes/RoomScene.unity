@@ -967,38 +967,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -1763075326112829143, guid: e7d01427cb2c1e443b76036796ae1a70, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6075291894925302070, guid: e7d01427cb2c1e443b76036796ae1a70, type: 3}
-      propertyPath: uniqueID
-      value: Guest2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6075291894925302070, guid: e7d01427cb2c1e443b76036796ae1a70, type: 3}
-      propertyPath: deadBodySprite
+    - target: {fileID: 6402664608262806224, guid: e7d01427cb2c1e443b76036796ae1a70, type: 3}
+      propertyPath: promptText
       value: 
-      objectReference: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
-    - target: {fileID: 6075291894925302070, guid: e7d01427cb2c1e443b76036796ae1a70, type: 3}
-      propertyPath: dialogueManager
-      value: 
-      objectReference: {fileID: 1882936957}
+      objectReference: {fileID: 1450693650}
     - target: {fileID: 6510398058385434136, guid: e7d01427cb2c1e443b76036796ae1a70, type: 3}
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
-    - target: {fileID: 7670513151567464231, guid: e7d01427cb2c1e443b76036796ae1a70, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.356111
-      objectReference: {fileID: 0}
-    - target: {fileID: 7670513151567464231, guid: e7d01427cb2c1e443b76036796ae1a70, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.356111
-      objectReference: {fileID: 0}
-    - target: {fileID: 7670513151567464231, guid: e7d01427cb2c1e443b76036796ae1a70, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.356111
-      objectReference: {fileID: 0}
     - target: {fileID: 7670513151567464231, guid: e7d01427cb2c1e443b76036796ae1a70, type: 3}
       propertyPath: m_LocalPosition.x
       value: -64.91
@@ -1039,10 +1015,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7670513151567464231, guid: e7d01427cb2c1e443b76036796ae1a70, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8589021318165902313, guid: e7d01427cb2c1e443b76036796ae1a70, type: 3}
       propertyPath: m_Name
       value: Guest2
@@ -1050,47 +1022,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8589021318165902313, guid: e7d01427cb2c1e443b76036796ae1a70, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 156532210}
-    - targetCorrespondingSourceObject: {fileID: 8589021318165902313, guid: e7d01427cb2c1e443b76036796ae1a70, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 156532218}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7d01427cb2c1e443b76036796ae1a70, type: 3}
 --- !u!1 &156532202 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8589021318165902313, guid: e7d01427cb2c1e443b76036796ae1a70, type: 3}
   m_PrefabInstance: {fileID: 156532201}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &156532210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 156532202}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e59ca7d7dfe5d042b2962116ec2264a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  promptText: {fileID: 1450693650}
-  interactionText: '[Q] Amnah'
-  isDeadInteractionText: Dead Amnah
---- !u!114 &156532218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 156532202}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e93dc3fb14b18b44788f59b0204a97db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  npcDialogue: {fileID: 11400000, guid: d5bc571a2e7df99499b6ff18df7aa0cd, type: 2}
 --- !u!1 &158998401
 GameObject:
   m_ObjectHideFlags: 0
@@ -30769,34 +30707,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3460354212386506180, guid: b03ef5865cf38794cb93c76cbdf6b2a9, type: 3}
   m_PrefabInstance: {fileID: 758512961116754828}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1582758995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1582758987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e59ca7d7dfe5d042b2962116ec2264a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  promptText: {fileID: 1450693650}
-  interactionText: '[Q] Maria'
-  isDeadInteractionText: Dead Maria
---- !u!114 &1582759003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1582758987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e93dc3fb14b18b44788f59b0204a97db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  npcDialogue: {fileID: 11400000, guid: 8f05b2169c3489b498fccb614b032701, type: 2}
 --- !u!1 &1615536823
 GameObject:
   m_ObjectHideFlags: 0
@@ -40120,30 +40030,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -5254076025656424604, guid: cbaabba658251074dbe6f28f9a5a9ade, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3131376338503310117, guid: cbaabba658251074dbe6f28f9a5a9ade, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 2091907196}
-    - target: {fileID: 3131376338503310117, guid: cbaabba658251074dbe6f28f9a5a9ade, type: 3}
-      propertyPath: uniqueID
-      value: Guest3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4522286085765809916, guid: cbaabba658251074dbe6f28f9a5a9ade, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.5238621
-      objectReference: {fileID: 0}
-    - target: {fileID: 4522286085765809916, guid: cbaabba658251074dbe6f28f9a5a9ade, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5238621
-      objectReference: {fileID: 0}
-    - target: {fileID: 4522286085765809916, guid: cbaabba658251074dbe6f28f9a5a9ade, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.5238621
-      objectReference: {fileID: 0}
     - target: {fileID: 4522286085765809916, guid: cbaabba658251074dbe6f28f9a5a9ade, type: 3}
       propertyPath: m_LocalPosition.x
       value: -50.82
@@ -40192,49 +40078,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Guest3
       objectReference: {fileID: 0}
-    - target: {fileID: 6438111855811146278, guid: cbaabba658251074dbe6f28f9a5a9ade, type: 3}
-      propertyPath: m_TagString
-      value: Aswang
-      objectReference: {fileID: 0}
     - target: {fileID: 6719457781654786315, guid: cbaabba658251074dbe6f28f9a5a9ade, type: 3}
       propertyPath: promptText
       value: 
       objectReference: {fileID: 1450693650}
-    - target: {fileID: 6719457781654786315, guid: cbaabba658251074dbe6f28f9a5a9ade, type: 3}
-      propertyPath: isDeadInteractionText
-      value: Dead Rodrigo
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6438111855811146278, guid: cbaabba658251074dbe6f28f9a5a9ade, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2091907204}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbaabba658251074dbe6f28f9a5a9ade, type: 3}
 --- !u!1 &2091907191 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6438111855811146278, guid: cbaabba658251074dbe6f28f9a5a9ade, type: 3}
   m_PrefabInstance: {fileID: 2091907190}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &2091907196 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 581028864793518386, guid: cbaabba658251074dbe6f28f9a5a9ade, type: 3}
-  m_PrefabInstance: {fileID: 2091907190}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2091907204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2091907191}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e93dc3fb14b18b44788f59b0204a97db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  npcDialogue: {fileID: 11400000, guid: 87e4a4c587428004dae9d19202f908fd, type: 2}
 --- !u!1 &2095436261
 GameObject:
   m_ObjectHideFlags: 0
@@ -40433,26 +40290,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1070184618118883349, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
-      propertyPath: uniqueID
-      value: Guest7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1070184618118883349, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: 6f448ffa9559d1a4b802dc2ac05dbdab, type: 2}
-    - target: {fileID: 1070184618118883349, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
-      propertyPath: deadBodySprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
-    - target: {fileID: 1070184618118883349, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
-      propertyPath: spriteRenderer
-      value: 
-      objectReference: {fileID: 799799494183181902, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
-    - target: {fileID: 2051967474302835978, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 25b47d88bf634864f869d49c3a6c3221, type: 2}
     - target: {fileID: 3434335624496274130, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
       propertyPath: m_LocalPosition.x
       value: -60.84
@@ -40497,58 +40334,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Guest7
       objectReference: {fileID: 0}
-    - target: {fileID: 3992619523406452007, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
-      propertyPath: m_TagString
-      value: Human
-      objectReference: {fileID: 0}
     - target: {fileID: 4308367223411011287, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
       propertyPath: promptText
       value: 
       objectReference: {fileID: 1450693650}
-    - target: {fileID: 4308367223411011287, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
-      propertyPath: interactionText
-      value: '[Q] Elias'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4308367223411011287, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
-      propertyPath: isDeadInteractionText
-      value: Dead Elias
-      objectReference: {fileID: 0}
-    - target: {fileID: 5454204475870324070, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6929942338212730954, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
-      propertyPath: currentNPC
-      value: 
-      objectReference: {fileID: 56888372682518318}
-    - target: {fileID: 6929942338212730954, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: 6f448ffa9559d1a4b802dc2ac05dbdab, type: 2}
     - target: {fileID: 6929942338212730954, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
-    - target: {fileID: 7432132520927486295, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: 6f448ffa9559d1a4b802dc2ac05dbdab, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
---- !u!114 &56888372682518318 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1070184618118883349, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
-  m_PrefabInstance: {fileID: 56888372682518317}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1177073878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a873c6fdc9250bd45b4d13b04f260def, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &758512961116754828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40557,45 +40355,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -5229100678262212772, guid: b03ef5865cf38794cb93c76cbdf6b2a9, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -1523755505912811826, guid: b03ef5865cf38794cb93c76cbdf6b2a9, type: 3}
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
-    - target: {fileID: 3264786963331778398, guid: b03ef5865cf38794cb93c76cbdf6b2a9, type: 3}
-      propertyPath: uniqueID
-      value: Maria
-      objectReference: {fileID: 0}
-    - target: {fileID: 3264786963331778398, guid: b03ef5865cf38794cb93c76cbdf6b2a9, type: 3}
-      propertyPath: deadBodySprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
-    - target: {fileID: 3264786963331778398, guid: b03ef5865cf38794cb93c76cbdf6b2a9, type: 3}
-      propertyPath: dialogueManager
-      value: 
-      objectReference: {fileID: 1882936957}
-    - target: {fileID: 3264786963331778398, guid: b03ef5865cf38794cb93c76cbdf6b2a9, type: 3}
-      propertyPath: guestDialogueOutside
-      value: 
-      objectReference: {fileID: 11400000, guid: 0bb2631264f918b428a586e593d8a250, type: 2}
     - target: {fileID: 3460354212386506180, guid: b03ef5865cf38794cb93c76cbdf6b2a9, type: 3}
       propertyPath: m_Name
       value: Guest1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4511890877774872117, guid: b03ef5865cf38794cb93c76cbdf6b2a9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.1182275
-      objectReference: {fileID: 0}
-    - target: {fileID: 4511890877774872117, guid: b03ef5865cf38794cb93c76cbdf6b2a9, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.1182275
-      objectReference: {fileID: 0}
-    - target: {fileID: 4511890877774872117, guid: b03ef5865cf38794cb93c76cbdf6b2a9, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.1182275
       objectReference: {fileID: 0}
     - target: {fileID: 4511890877774872117, guid: b03ef5865cf38794cb93c76cbdf6b2a9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40637,20 +40403,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4511890877774872117, guid: b03ef5865cf38794cb93c76cbdf6b2a9, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
+    - target: {fileID: 6706902713454996173, guid: b03ef5865cf38794cb93c76cbdf6b2a9, type: 3}
+      propertyPath: promptText
+      value: 
+      objectReference: {fileID: 1450693650}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3460354212386506180, guid: b03ef5865cf38794cb93c76cbdf6b2a9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1582758995}
-    - targetCorrespondingSourceObject: {fileID: 3460354212386506180, guid: b03ef5865cf38794cb93c76cbdf6b2a9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1582759003}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b03ef5865cf38794cb93c76cbdf6b2a9, type: 3}
 --- !u!1001 &1472236035709590159
 PrefabInstance:
@@ -40660,37 +40420,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2464447851437202705, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3694687153585078364, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: afcf3b0c928ff36458f735ee159a4a98, type: 2}
-    - target: {fileID: 4477190961244891621, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 0c5b5a44e1f50de499dd3106cc4814c0, type: 2}
     - target: {fileID: 5638123142172451651, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
       propertyPath: promptText
       value: 
       objectReference: {fileID: 1450693650}
-    - target: {fileID: 5638123142172451651, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
-      propertyPath: interactionText
-      value: '[Q] Lila'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5638123142172451651, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
-      propertyPath: isDeadInteractionText
-      value: Dead Lila
-      objectReference: {fileID: 0}
     - target: {fileID: 7672702007831538577, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
       propertyPath: m_Name
       value: Guest9
-      objectReference: {fileID: 0}
-    - target: {fileID: 7672702007831538577, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
-      propertyPath: m_TagString
-      value: Aswang
       objectReference: {fileID: 0}
     - target: {fileID: 7765934601525964810, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40732,30 +40468,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9029684640676869115, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
-      propertyPath: uniqueID
-      value: Guest9
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029684640676869115, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: afcf3b0c928ff36458f735ee159a4a98, type: 2}
-    - target: {fileID: 9029684640676869115, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
-      propertyPath: deadBodySprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
-    - target: {fileID: 9029684640676869115, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
-      propertyPath: spriteRenderer
-      value: 
-      objectReference: {fileID: 7338596571001631931, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
-    - target: {fileID: 9101080740795132309, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
-      propertyPath: currentNPC
-      value: 
-      objectReference: {fileID: 1472236035709590160}
-    - target: {fileID: 9101080740795132309, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: afcf3b0c928ff36458f735ee159a4a98, type: 2}
     - target: {fileID: 9101080740795132309, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
       propertyPath: dialogueManager
       value: 
@@ -40765,17 +40477,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
---- !u!114 &1472236035709590160 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9029684640676869115, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
-  m_PrefabInstance: {fileID: 1472236035709590159}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1167963902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a873c6fdc9250bd45b4d13b04f260def, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2199817144796965561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40784,22 +40485,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1561492742954696519, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
-      propertyPath: uniqueID
-      value: Guest12
-      objectReference: {fileID: 0}
-    - target: {fileID: 1561492742954696519, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: a17520b505edde64199ae4096ae4edee, type: 2}
-    - target: {fileID: 1561492742954696519, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
-      propertyPath: deadBodySprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
-    - target: {fileID: 1561492742954696519, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
-      propertyPath: spriteRenderer
-      value: 
-      objectReference: {fileID: 8780859398870646175, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
     - target: {fileID: 2659847536286806331, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
       propertyPath: m_LocalPosition.x
       value: -41.36
@@ -40840,66 +40525,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3813218027521572677, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4464167968489782394, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: a7d7db4e992bf2045afd5df7eb3a36c3, type: 2}
     - target: {fileID: 4986480664438938638, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
       propertyPath: promptText
       value: 
       objectReference: {fileID: 1450693650}
-    - target: {fileID: 4986480664438938638, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
-      propertyPath: interactionText
-      value: '[Q] Selene'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4986480664438938638, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
-      propertyPath: isDeadInteractionText
-      value: Dead Selene
-      objectReference: {fileID: 0}
-    - target: {fileID: 5025011602199906184, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
-      propertyPath: currentNPC
-      value: 
-      objectReference: {fileID: 2199817144796965562}
-    - target: {fileID: 5025011602199906184, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: a17520b505edde64199ae4096ae4edee, type: 2}
     - target: {fileID: 5025011602199906184, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
-    - target: {fileID: 7067802032013523842, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: a17520b505edde64199ae4096ae4edee, type: 2}
     - target: {fileID: 8529062439279046693, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
       propertyPath: m_Name
       value: Guest12
-      objectReference: {fileID: 0}
-    - target: {fileID: 8529062439279046693, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
-      propertyPath: m_TagString
-      value: Aswang
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
---- !u!114 &2199817144796965562 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1561492742954696519, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
-  m_PrefabInstance: {fileID: 2199817144796965561}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1916326716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a873c6fdc9250bd45b4d13b04f260def, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2896727931619595543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40912,10 +40554,6 @@ PrefabInstance:
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
-    - target: {fileID: 2340967027316978877, guid: 05508696983861b4486269f4674267c1, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 16ffd1b1457df2f428d60e6676dd3394, type: 2}
     - target: {fileID: 6844506872190533529, guid: 05508696983861b4486269f4674267c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -62.81
@@ -40978,14 +40616,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 81511672526867390, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
-      propertyPath: currentNPC
-      value: 
-      objectReference: {fileID: 3080399386292059077}
-    - target: {fileID: 81511672526867390, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: 3aae12663ac33fb4fb8b230e7d9d8ec4, type: 2}
-    - target: {fileID: 81511672526867390, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
@@ -41029,70 +40659,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1166312455811290185, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: ddf58d680bbd8444c8425cba9639de30, type: 2}
-    - target: {fileID: 2014967704919616584, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2938126543223585517, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: 3aae12663ac33fb4fb8b230e7d9d8ec4, type: 2}
     - target: {fileID: 5788250196407870740, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
       propertyPath: m_Name
       value: Guest10
-      objectReference: {fileID: 0}
-    - target: {fileID: 5788250196407870740, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
-      propertyPath: m_TagString
-      value: Human
       objectReference: {fileID: 0}
     - target: {fileID: 6215146888323344695, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
       propertyPath: promptText
       value: 
       objectReference: {fileID: 1450693650}
-    - target: {fileID: 6215146888323344695, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
-      propertyPath: interactionText
-      value: '[Q] Unknown Man'
-      objectReference: {fileID: 0}
-    - target: {fileID: 6215146888323344695, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
-      propertyPath: isDeadInteractionText
-      value: Dead Unknown Man
-      objectReference: {fileID: 0}
-    - target: {fileID: 7400797440943875837, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
-      propertyPath: uniqueID
-      value: Guest10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7400797440943875837, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: 3aae12663ac33fb4fb8b230e7d9d8ec4, type: 2}
-    - target: {fileID: 7400797440943875837, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
-      propertyPath: deadBodySprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
-    - target: {fileID: 7400797440943875837, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
-      propertyPath: spriteRenderer
-      value: 
-      objectReference: {fileID: 3828620024594333525, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
---- !u!114 &3080399386292059077 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7400797440943875837, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
-  m_PrefabInstance: {fileID: 3080399386292059076}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 717230521}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a873c6fdc9250bd45b4d13b04f260def, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &6465084338255668471
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41145,28 +40724,12 @@ PrefabInstance:
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
-    - target: {fileID: 1552303884459325991, guid: a4a2817d51b9aed4c95ca43008b8ab26, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: d932ebbd4fa97d14f9eb6624b758b8fe, type: 2}
     - target: {fileID: 2112086891068640090, guid: a4a2817d51b9aed4c95ca43008b8ab26, type: 3}
       propertyPath: promptText
       value: 
       objectReference: {fileID: 1450693650}
-    - target: {fileID: 2112086891068640090, guid: a4a2817d51b9aed4c95ca43008b8ab26, type: 3}
-      propertyPath: interactionText
-      value: '[Q] Bruno'
-      objectReference: {fileID: 0}
-    - target: {fileID: 2112086891068640090, guid: a4a2817d51b9aed4c95ca43008b8ab26, type: 3}
-      propertyPath: isDeadInteractionText
-      value: Dead Bruno
-      objectReference: {fileID: 0}
     - target: {fileID: 2218889738870548009, guid: a4a2817d51b9aed4c95ca43008b8ab26, type: 3}
       propertyPath: m_Name
-      value: Guest5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3960206652369975214, guid: a4a2817d51b9aed4c95ca43008b8ab26, type: 3}
-      propertyPath: uniqueID
       value: Guest5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -41182,49 +40745,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 409701463136787932, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2179690203541154199, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
-      propertyPath: uniqueID
-      value: Guest6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2179690203541154199, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: b3b8f1e6532960d46b262f7a347cecd3, type: 2}
-    - target: {fileID: 2179690203541154199, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
-      propertyPath: deadBodySprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
-    - target: {fileID: 2179690203541154199, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
-      propertyPath: spriteRenderer
-      value: 
-      objectReference: {fileID: 4381313685498186843, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
     - target: {fileID: 2344932927539160284, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
       propertyPath: promptText
       value: 
       objectReference: {fileID: 1450693650}
-    - target: {fileID: 2344932927539160284, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
-      propertyPath: interactionText
-      value: '[Q] Miguel'
-      objectReference: {fileID: 0}
-    - target: {fileID: 2344932927539160284, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
-      propertyPath: isDeadInteractionText
-      value: Dead Miguel
-      objectReference: {fileID: 0}
-    - target: {fileID: 4092748654177677096, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: b3b8f1e6532960d46b262f7a347cecd3, type: 2}
     - target: {fileID: 4145840880968797116, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
       propertyPath: m_Name
       value: Guest6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4145840880968797116, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
-      propertyPath: m_TagString
-      value: Aswang
       objectReference: {fileID: 0}
     - target: {fileID: 6016434970826474482, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41267,37 +40794,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6316327817816589755, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
-      propertyPath: currentNPC
-      value: 
-      objectReference: {fileID: 6564173485408984100}
-    - target: {fileID: 6316327817816589755, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: b3b8f1e6532960d46b262f7a347cecd3, type: 2}
-    - target: {fileID: 6316327817816589755, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
-    - target: {fileID: 6484871609722338555, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 41d4a8a888c5c404e942d082fd1bba7d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
---- !u!114 &6564173485408984100 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2179690203541154199, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
-  m_PrefabInstance: {fileID: 6564173485408984099}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817130099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a873c6fdc9250bd45b4d13b04f260def, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &7130981665545708019
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41309,10 +40813,6 @@ PrefabInstance:
     - target: {fileID: 640869331140963105, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
       propertyPath: m_Name
       value: Guest11
-      objectReference: {fileID: 0}
-    - target: {fileID: 640869331140963105, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
-      propertyPath: m_TagString
-      value: Human
       objectReference: {fileID: 0}
     - target: {fileID: 1049119805058704316, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41354,74 +40854,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1277341570558424944, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3463002836474939001, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: 77900575b67122d48869698e07afb6a4, type: 2}
-    - target: {fileID: 3991095651891116298, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
-      propertyPath: currentNPC
-      value: 
-      objectReference: {fileID: 7130981665545708020}
-    - target: {fileID: 3991095651891116298, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: 77900575b67122d48869698e07afb6a4, type: 2}
     - target: {fileID: 3991095651891116298, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
-    - target: {fileID: 4117791131086223252, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
-      propertyPath: uniqueID
-      value: Guest11
-      objectReference: {fileID: 0}
-    - target: {fileID: 4117791131086223252, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: 77900575b67122d48869698e07afb6a4, type: 2}
-    - target: {fileID: 4117791131086223252, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
-      propertyPath: deadBodySprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
-    - target: {fileID: 4117791131086223252, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
-      propertyPath: spriteRenderer
-      value: 
-      objectReference: {fileID: 6127518198903109813, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
-    - target: {fileID: 7875763253037890680, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: fe43e287a17afc842bcc2d8ea5e0907c, type: 2}
     - target: {fileID: 8413251730511264515, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
       propertyPath: promptText
       value: 
       objectReference: {fileID: 1450693650}
-    - target: {fileID: 8413251730511264515, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
-      propertyPath: interactionText
-      value: '[Q] Garron'
-      objectReference: {fileID: 0}
-    - target: {fileID: 8413251730511264515, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
-      propertyPath: isDeadInteractionText
-      value: Dead Garron
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
---- !u!114 &7130981665545708020 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4117791131086223252, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
-  m_PrefabInstance: {fileID: 7130981665545708019}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1165905208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a873c6fdc9250bd45b4d13b04f260def, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &7979244807519000603
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41491,62 +40936,14 @@ PrefabInstance:
       propertyPath: promptText
       value: 
       objectReference: {fileID: 1450693650}
-    - target: {fileID: 2938913907441268403, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
-      propertyPath: interactionText
-      value: '[Q] Darius'
-      objectReference: {fileID: 0}
-    - target: {fileID: 2938913907441268403, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
-      propertyPath: isDeadInteractionText
-      value: Dead Darius
-      objectReference: {fileID: 0}
-    - target: {fileID: 2963879189724414711, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: 32dbc244b579fe241836710b0eddbefc, type: 2}
-    - target: {fileID: 4727588378446957915, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
-      propertyPath: currentNPC
-      value: 
-      objectReference: {fileID: 8757598446008191828}
-    - target: {fileID: 4727588378446957915, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: 32dbc244b579fe241836710b0eddbefc, type: 2}
     - target: {fileID: 4727588378446957915, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
-    - target: {fileID: 5108349998211743376, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5575185870825312935, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
       propertyPath: m_Name
       value: Guest8
       objectReference: {fileID: 0}
-    - target: {fileID: 5575185870825312935, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
-      propertyPath: m_TagString
-      value: Aswang
-      objectReference: {fileID: 0}
-    - target: {fileID: 6927638605872545629, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 791d99ee14dbf75438a0fb723f166c5b, type: 2}
-    - target: {fileID: 8745097554116563425, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
-      propertyPath: uniqueID
-      value: Guest8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8745097554116563425, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
-      propertyPath: npcDialogue
-      value: 
-      objectReference: {fileID: 11400000, guid: 32dbc244b579fe241836710b0eddbefc, type: 2}
-    - target: {fileID: 8745097554116563425, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
-      propertyPath: deadBodySprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
-    - target: {fileID: 8745097554116563425, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
-      propertyPath: spriteRenderer
-      value: 
-      objectReference: {fileID: 7177138255620170505, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
     - target: {fileID: 8864083021668568811, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -44.92
@@ -41592,17 +40989,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
---- !u!114 &8757598446008191828 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8745097554116563425, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
-  m_PrefabInstance: {fileID: 8757598446008191827}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896365122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a873c6fdc9250bd45b4d13b04f260def, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

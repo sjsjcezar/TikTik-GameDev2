@@ -43,11 +43,14 @@ MonoBehaviour:
   dialoguesNight1:
   - Hi there.
   dialoguesNight2:
-  - What a day.
+  - You have my appreciation, truly.
+  - "I\u2019ll pull my weight, I promise."
   dialoguesNight3:
-  - Good evening.
+  - "The night feels heavier... like it\u2019s pressing down on us."
+  - Do you feel it too?
   dialoguesNight4:
-  - Hello there.
+  - ' I saw them.'
+  - They were smiling at me... like they knew me.
   dialoguesNight5: []
   introductoryDialogue:
   - "Good evening\u2014though I use the term loosely, given the state of the world."
@@ -86,20 +89,20 @@ MonoBehaviour:
   - featureName: Elongated Limbs
     featureImage: {fileID: 0}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - There's not much to see, but I permit it.
     hearOutDialogue: 
   - featureName: Dark Eyes
     featureImage: {fileID: 21300000, guid: e9b468827541534419765f86eda39335, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - Be gentle.
     hearOutDialogue: 
   - featureName: Sharp Teeth
     featureImage: {fileID: 21300000, guid: e3456448532adc849adba0989a0da553, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - I promise I am not concealing anything
     hearOutDialogue: 
   - featureName: False Smile
     featureImage: {fileID: 0}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - I do not think it will be convincing.
     hearOutDialogue: 

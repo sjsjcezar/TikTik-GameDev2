@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 3694687153585078364}
   m_Layer: 0
   m_Name: Guest9
-  m_TagString: Untagged
+  m_TagString: Aswang
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,7 +32,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7672702007831538577}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -72.18, y: 30.14, z: -7.2555923}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -104,8 +104,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueManager: {fileID: 0}
-  npcDialogue: {fileID: 0}
-  currentNPC: {fileID: 0}
+  npcDialogue: {fileID: 11400000, guid: afcf3b0c928ff36458f735ee159a4a98, type: 2}
+  currentNPC: {fileID: 9029684640676869115}
 --- !u!61 &704504615955680472
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -180,7 +180,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.035419464, y: -0.8146677}
@@ -206,7 +206,7 @@ Animator:
   m_GameObject: {fileID: 7672702007831538577}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0c5b5a44e1f50de499dd3106cc4814c0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -229,10 +229,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a873c6fdc9250bd45b4d13b04f260def, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcDialogue: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  deadBodySprite: {fileID: 0}
-  uniqueID: same to NpcDialogue SO (Npc Name)
+  npcDialogue: {fileID: 11400000, guid: afcf3b0c928ff36458f735ee159a4a98, type: 2}
+  spriteRenderer: {fileID: 7338596571001631931}
+  deadBodySprite: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
+  uniqueID: Guest9
 --- !u!114 &5638123142172451651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,8 +246,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptText: {fileID: 0}
-  interactionText: NAME
-  isDeadInteractionText: DEAD NAME
+  interactionText: '[Q] Lila'
+  isDeadInteractionText: Dead Lila
 --- !u!114 &3694687153585078364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -260,4 +260,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93dc3fb14b18b44788f59b0204a97db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcDialogue: {fileID: 0}
+  npcDialogue: {fileID: 11400000, guid: afcf3b0c928ff36458f735ee159a4a98, type: 2}

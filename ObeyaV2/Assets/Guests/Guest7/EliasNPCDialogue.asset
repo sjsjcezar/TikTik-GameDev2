@@ -46,9 +46,11 @@ MonoBehaviour:
   dialoguesNight2:
   - What a day.
   dialoguesNight3:
-  - Good evening.
+  - Thank you for letting me in.
+  - "I\u2019ll try to stay out of your way."
   dialoguesNight4:
-  - Hello there.
+  - "I can\u2019t pray tonight."
+  - "It feels like something\u2019s listening."
   dialoguesNight5: []
   introductoryDialogue:
   - Finally. Took you long enough to answer.
@@ -93,20 +95,22 @@ MonoBehaviour:
   - featureName: Elongated Limbs
     featureImage: {fileID: 21300000, guid: 6e6540aaa0a2d93409a3f8a8f857f70f, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - They're just fine.
+    - You don't have to worry about me.
     hearOutDialogue: 
   - featureName: Dark Eyes
     featureImage: {fileID: 21300000, guid: e9b468827541534419765f86eda39335, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - Have they changed?
+    - I hope not.
     hearOutDialogue: 
   - featureName: Sharp Teeth
     featureImage: {fileID: 21300000, guid: e3456448532adc849adba0989a0da553, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - Just don't just too harshly.
     hearOutDialogue: 
   - featureName: False Smile
     featureImage: {fileID: 0}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - It's been a while since I've had a reason.
     hearOutDialogue: 

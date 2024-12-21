@@ -50,7 +50,8 @@ MonoBehaviour:
   dialoguesNight3:
   - Good evening.
   dialoguesNight4:
-  - Hello there.
+  - "You\u2019re too kind, really."
+  - "I\u2019ll do my best to repay you."
   dialoguesNight5: []
   introductoryDialogue:
   - Oh my, such a gentleman... leaving a lady out here all alone?
@@ -91,20 +92,20 @@ MonoBehaviour:
   - featureName: Elongated Limbs
     featureImage: {fileID: 21300000, guid: 6e6540aaa0a2d93409a3f8a8f857f70f, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - Of course, take a look.
     hearOutDialogue: 
   - featureName: Dark Eyes
     featureImage: {fileID: 21300000, guid: e9b468827541534419765f86eda39335, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - You like what you see?
     hearOutDialogue: 
   - featureName: Sharp Teeth
     featureImage: {fileID: 21300000, guid: e3456448532adc849adba0989a0da553, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - Sure, if it'll ease your mind.
     hearOutDialogue: 
   - featureName: False Smile
     featureImage: {fileID: 0}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - Does this look genuine enough?
     hearOutDialogue: 

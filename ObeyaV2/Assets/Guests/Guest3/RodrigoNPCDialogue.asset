@@ -51,13 +51,17 @@ MonoBehaviour:
   - You are quite paranoid, yes?
   - I understand the caution.
   dialoguesNight1:
-  - Your house is lovely.
+  - "You didn\u2019t have to help me, but you did."
+  - " I\u2019ll remember that."
   dialoguesNight2:
-  - What is it?
+  - "They\u2019re out there."
+  - Watching, waiting. I can feel it.
   dialoguesNight3:
-  - Good evening.
+  - "Do you think there\u2019s a way to stop them?"
+  - Or are we all just delaying the inevitable?
   dialoguesNight4:
-  - Hello there.
+  - "They\u2019re inside my head."
+  - "Their whispers... they\u2019re getting louder."
   dialoguesNight5: []
   introductoryDialogue:
   - "Good evening. I hope you don\u2019t mind me intruding. It\u2019s rare to find

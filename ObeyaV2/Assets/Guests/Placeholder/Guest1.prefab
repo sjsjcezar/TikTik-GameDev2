@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 8421226201059705993}
   - component: {fileID: 8751912304929501484}
   - component: {fileID: 3264786963331778398}
+  - component: {fileID: 6706902713454996173}
+  - component: {fileID: 9179088925152426379}
   m_Layer: 0
   m_Name: Guest1
   m_TagString: Human
@@ -32,8 +34,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.79, y: -7, z: 0.7595115}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.1182275, y: 1.1182275, z: 1.1182275}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -77,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 0e9d939bdd27662459489a1a11822bfd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -229,4 +231,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcDialogue: {fileID: 11400000, guid: 8f05b2169c3489b498fccb614b032701, type: 2}
   spriteRenderer: {fileID: -5229100678262212772}
-  deadBodySprite: {fileID: 0}
+  deadBodySprite: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
+  uniqueID: Maria
+--- !u!114 &6706902713454996173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3460354212386506180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e59ca7d7dfe5d042b2962116ec2264a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  promptText: {fileID: 0}
+  interactionText: '[Q] Maria'
+  isDeadInteractionText: Dead Maria
+--- !u!114 &9179088925152426379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3460354212386506180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93dc3fb14b18b44788f59b0204a97db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcDialogue: {fileID: 11400000, guid: 8f05b2169c3489b498fccb614b032701, type: 2}

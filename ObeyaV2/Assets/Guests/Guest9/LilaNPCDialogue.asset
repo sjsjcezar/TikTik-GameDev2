@@ -45,9 +45,11 @@ MonoBehaviour:
   dialoguesNight2:
   - What a day.
   dialoguesNight3:
-  - Good evening.
+  - Thank you.
+  - " I\u2019ll do my best not to be a burden."
   dialoguesNight4:
-  - Hello there.
+  - "The stars... they\u2019re gone."
+  - What kind of world loses its stars?
   dialoguesNight5: []
   introductoryDialogue:
   - Please, let me in.
@@ -82,20 +84,20 @@ MonoBehaviour:
   - featureName: Elongated Limbs
     featureImage: {fileID: 21300000, guid: 6e6540aaa0a2d93409a3f8a8f857f70f, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - Just be quick about it.
     hearOutDialogue: 
   - featureName: Dark Eyes
     featureImage: {fileID: 21300000, guid: e9b468827541534419765f86eda39335, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - What do you see?
     hearOutDialogue: 
   - featureName: Sharp Teeth
     featureImage: {fileID: 21300000, guid: e3456448532adc849adba0989a0da553, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - Alright, but don't... don't overthink it.
     hearOutDialogue: 
   - featureName: False Smile
     featureImage: {fileID: 0}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - If I can manage one...
     hearOutDialogue: 

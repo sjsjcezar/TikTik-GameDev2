@@ -27,7 +27,7 @@ MonoBehaviour:
   - No, no, no! I... I just wanted to survi-
   hearOutDialogues: []
   hearOutDialogues1:
-  - My arms?
+  - My arms.
   - "They\u2019re normal... right?"
   hearOutDialogues2:
   - "I know I\u2019ve got bags under my eyes."
@@ -41,11 +41,14 @@ MonoBehaviour:
   dialoguesNight1:
   - Hi there.
   dialoguesNight2:
-  - What a day.
+  - Thank you... really.
+  - "I\u2019ll try not to be a bother."
   dialoguesNight3:
-  - Good evening.
+  - I thought I saw something outside.
+  - But when I looked again, it was gone...
   dialoguesNight4:
-  - Hello there.
+  - " I don\u2019t want to go to sleep."
+  - What if I wake up... as one of them?
   dialoguesNight5: []
   introductoryDialogue:
   - Please, someone... is anyone there?
@@ -77,20 +80,20 @@ MonoBehaviour:
   - featureName: Elongated Limbs
     featureImage: {fileID: 21300000, guid: 6e6540aaa0a2d93409a3f8a8f857f70f, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - Why do you want to look at my arms?
     hearOutDialogue: 
   - featureName: Dark Eyes
     featureImage: {fileID: 21300000, guid: e9b468827541534419765f86eda39335, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - My eyes?
     hearOutDialogue: 
   - featureName: Sharp Teeth
     featureImage: {fileID: 21300000, guid: e3456448532adc849adba0989a0da553, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - My t-teeth?
     hearOutDialogue: 
   - featureName: False Smile
     featureImage: {fileID: 0}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - I don't really feel like it...
     hearOutDialogue: 

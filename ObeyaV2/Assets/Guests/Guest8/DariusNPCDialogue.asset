@@ -51,9 +51,11 @@ MonoBehaviour:
   dialoguesNight2:
   - What a day.
   dialoguesNight3:
-  - Good evening.
+  - "You didn\u2019t have to let me in, but I\u2019m glad you did."
+  - " I\u2019ll repay the favor someday."
   dialoguesNight4:
-  - Hello there.
+  - "The silence isn\u2019t natural."
+  - " It\u2019s the kind that comes before something... worse."
   dialoguesNight5: []
   introductoryDialogue:
   - "Well, you\u2019re taking your time. I\u2019d like to come in now."
@@ -89,20 +91,20 @@ MonoBehaviour:
   - featureName: Elongated Limbs
     featureImage: {fileID: 21300000, guid: 6e6540aaa0a2d93409a3f8a8f857f70f, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - Alright, see for yourself.
     hearOutDialogue: 
   - featureName: Dark Eyes
     featureImage: {fileID: 21300000, guid: e9b468827541534419765f86eda39335, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - Sure, but I warn you, I don't blink much.
     hearOutDialogue: 
   - featureName: Sharp Teeth
     featureImage: {fileID: 21300000, guid: e3456448532adc849adba0989a0da553, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - Guess it's better than asking for blood.
     hearOutDialogue: 
   - featureName: False Smile
     featureImage: {fileID: 0}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - Heh, that's rich. I'll do my best.
     hearOutDialogue: 

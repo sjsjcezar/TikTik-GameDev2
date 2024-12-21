@@ -40,7 +40,7 @@ public class NPCDialogueManager : MonoBehaviour
     private NPCDialogue currentNPCDialogue;
     private int dialogueIndex = 0; // Index to track current dialogue
 
-    private bool isInDialogue = false;
+    public bool isInDialogue = false;
     private int aswangResponseIndex = 0;
     private int eclipseResponseIndex = 0;
     private int killResponseIndex = 0;
@@ -150,7 +150,8 @@ public class NPCDialogueManager : MonoBehaviour
         {
             Debug.Log("General dialogue ended, showing response buttons.");
             buttonsPanel.SetActive(true); // Show the buttons after general dialogue ends
-            isInDialogue = false;  // Stop sequential dialogue handling after all lines
+               // Stop sequential dialogue handling after all lines
+            // Debug.Log("Line 153 called");
         }
     }
 
@@ -261,7 +262,8 @@ public class NPCDialogueManager : MonoBehaviour
     {
         Debug.Log("Sequential dialogue ended.");
         activeResponseType = "";
-        isInDialogue = false;
+        
+        // Debug.Log("Line 265 called");
         buttonsPanel.SetActive(true);
         killButton.gameObject.SetActive(false);
         hearOutButton.gameObject.SetActive(false);
@@ -537,6 +539,7 @@ public class NPCDialogueManager : MonoBehaviour
         }
 
         buttonsPanel.SetActive(false);
+        isInDialogue = false;
         ResetButtons();
     }
 

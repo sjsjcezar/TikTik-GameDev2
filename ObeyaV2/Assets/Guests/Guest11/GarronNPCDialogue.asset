@@ -47,7 +47,8 @@ MonoBehaviour:
   dialoguesNight3:
   - Good evening.
   dialoguesNight4:
-  - Hello there.
+  - "You\u2019re a brave one."
+  - Letting someone like me in.
   dialoguesNight5: []
   introductoryDialogue:
   - Hey! Open up and let me in!
@@ -81,20 +82,20 @@ MonoBehaviour:
   - featureName: Elongated Limbs
     featureImage: {fileID: 21300000, guid: 6e6540aaa0a2d93409a3f8a8f857f70f, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - Take a look, if you dare.
     hearOutDialogue: 
   - featureName: Dark Eyes
     featureImage: {fileID: 21300000, guid: e9b468827541534419765f86eda39335, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - You think they'll tell you something?
     hearOutDialogue: 
   - featureName: Sharp Teeth
     featureImage: {fileID: 21300000, guid: e3456448532adc849adba0989a0da553, type: 3}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - Go ahed. Just don't flinch.
     hearOutDialogue: 
   - featureName: False Smile
     featureImage: {fileID: 0}
     featureDialogues:
-    - Placeholder Picture n Dialogue
+    - It's not pretty, though.
     hearOutDialogue: 

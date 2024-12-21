@@ -16,9 +16,10 @@ GameObject:
   - component: {fileID: 3469330043239097292}
   - component: {fileID: 3131376338503310117}
   - component: {fileID: 6719457781654786315}
+  - component: {fileID: 4600690648555918293}
   m_Layer: 0
   m_Name: Guest3
-  m_TagString: Human
+  m_TagString: Aswang
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33,7 +34,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
+  m_LocalScale: {x: 1.5238621, y: 1.5238621, z: 1.5238621}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -78,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3a56f44b3565fb24a949a4009cf9f24a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -231,6 +232,7 @@ MonoBehaviour:
   npcDialogue: {fileID: 11400000, guid: 87e4a4c587428004dae9d19202f908fd, type: 2}
   spriteRenderer: {fileID: -5254076025656424604}
   deadBodySprite: {fileID: 21300000, guid: 62c73f22de1fffd4d9d7749ac1115a33, type: 3}
+  uniqueID: Guest3
 --- !u!114 &6719457781654786315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,3 +247,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   promptText: {fileID: 0}
   interactionText: '[Q] Rodrigo'
+  isDeadInteractionText: Dead Rodrigo
+--- !u!114 &4600690648555918293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6438111855811146278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93dc3fb14b18b44788f59b0204a97db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcDialogue: {fileID: 11400000, guid: 87e4a4c587428004dae9d19202f908fd, type: 2}

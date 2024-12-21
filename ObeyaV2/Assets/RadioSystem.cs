@@ -8,6 +8,7 @@ public class RadioSystem : MonoBehaviour
     public TextMeshProUGUI radioText;
     public TextMeshProUGUI mumblingGrowlText;
     public NightManager nightManager;
+    public NPCDialogueManager dialogueManager;
 
     public GameObject journal;
     public GameObject journalPanel;
@@ -41,7 +42,7 @@ public class RadioSystem : MonoBehaviour
 
     private void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.Q))
+        if (playerInRange && Input.GetKeyDown(KeyCode.Q) && dialogueManager.isInDialogue == false)
         {
             if (!isInteracting)
             {
