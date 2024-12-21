@@ -50,11 +50,11 @@ public class Night5Script : NightBaseScript
         Debug.Log($"Humans Accepted: {humansAccepted}");
         Debug.Log($"Aswangs Accepted: {aswangsAccepted}");
         // Check conditions for the ending
-        if (humansAccepted >= 8 && aswangsAccepted == 0)
+        if (humansAccepted >= 6 && aswangsAccepted == 0)
         {
             StartCoroutine(DisplayEnding("Good Ending: Good job ggs well played xD"));
         }
-        else if (humansAccepted >= 4 && aswangsAccepted == 0)
+        else if (humansAccepted >= 3 && aswangsAccepted == 0)
         {
             StartCoroutine(DisplayEnding("Basic Ending: You survived, but the future is uncertain as the Aswang still pose a threat to society."));
         }

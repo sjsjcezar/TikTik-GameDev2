@@ -16,7 +16,7 @@ public class TitleScreenManager : MonoBehaviour
     public void StartGame() 
     {
         // Trigger loading screen and load RoomScene asynchronously
-        LoadingScreenManager.LoadScene("RoomScene");
+        LoadingScreenManager.LoadScene("IntroScene");
     }
 
     public void QuitGame()
