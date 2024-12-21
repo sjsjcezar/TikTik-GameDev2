@@ -3296,6 +3296,7 @@ MonoBehaviour:
   radioText: {fileID: 1318533610}
   mumblingGrowlText: {fileID: 1900251190}
   nightManager: {fileID: 1516058450}
+  dialogueManager: {fileID: 0}
   journal: {fileID: 737224361}
   journalPanel: {fileID: 1818696485}
   journalText: {fileID: 830514147}
@@ -3305,8 +3306,8 @@ MonoBehaviour:
   nightDialogues:
   - {fileID: 11400000, guid: 1d6d9bf3c7454594ab2c8a1da99cbdf6, type: 2}
   - {fileID: 11400000, guid: 498bd4647545fe540a3c47d0f3bdd9a2, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: c198038a56ca0904e90b9af38373abc2, type: 2}
+  - {fileID: 11400000, guid: 1cb5d42a75d355248b16b0a6173a30b8, type: 2}
   hasLearnedFeature1: 0
   hasLearnedFeature2: 0
   hasLearnedFeature3: 0
@@ -38262,6 +38263,7 @@ MonoBehaviour:
   falseSmileButton: {fileID: 1657867103}
   dialoguePanel: {fileID: 1001753746}
   buttonsPanel: {fileID: 1206903514}
+  isInDialogue: 0
   npcImage: {fileID: 309264785}
   featureImage: {fileID: 793083095}
   cannotTalkPanel: {fileID: 1858655035}
