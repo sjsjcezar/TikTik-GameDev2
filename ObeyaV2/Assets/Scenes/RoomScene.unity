@@ -38090,7 +38090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nightManager: {fileID: 1516058450}
-  nightToSwapOn: 2
+  nightToSwapOn: 4
   newSprite: {fileID: 21300000, guid: 88710dec5628b194f8a7a16c435efcc2, type: 3}
   hasSwapped: 0
 --- !u!1 &1857390572
@@ -40449,6 +40449,10 @@ PrefabInstance:
       propertyPath: spriteRenderer
       value: 
       objectReference: {fileID: 799799494183181902, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
+    - target: {fileID: 2051967474302835978, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 25b47d88bf634864f869d49c3a6c3221, type: 2}
     - target: {fileID: 3434335624496274130, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
       propertyPath: m_LocalPosition.x
       value: -60.84
@@ -40664,6 +40668,10 @@ PrefabInstance:
       propertyPath: npcDialogue
       value: 
       objectReference: {fileID: 11400000, guid: afcf3b0c928ff36458f735ee159a4a98, type: 2}
+    - target: {fileID: 4477190961244891621, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0c5b5a44e1f50de499dd3106cc4814c0, type: 2}
     - target: {fileID: 5638123142172451651, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
       propertyPath: promptText
       value: 
@@ -40836,6 +40844,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4464167968489782394, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a7d7db4e992bf2045afd5df7eb3a36c3, type: 2}
     - target: {fileID: 4986480664438938638, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
       propertyPath: promptText
       value: 
@@ -40900,6 +40912,10 @@ PrefabInstance:
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
+    - target: {fileID: 2340967027316978877, guid: 05508696983861b4486269f4674267c1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 16ffd1b1457df2f428d60e6676dd3394, type: 2}
     - target: {fileID: 6844506872190533529, guid: 05508696983861b4486269f4674267c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -62.81
@@ -41013,6 +41029,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1166312455811290185, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ddf58d680bbd8444c8425cba9639de30, type: 2}
     - target: {fileID: 2014967704919616584, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -41125,6 +41145,10 @@ PrefabInstance:
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
+    - target: {fileID: 1552303884459325991, guid: a4a2817d51b9aed4c95ca43008b8ab26, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d932ebbd4fa97d14f9eb6624b758b8fe, type: 2}
     - target: {fileID: 2112086891068640090, guid: a4a2817d51b9aed4c95ca43008b8ab26, type: 3}
       propertyPath: promptText
       value: 
@@ -41254,6 +41278,10 @@ PrefabInstance:
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
+    - target: {fileID: 6484871609722338555, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 41d4a8a888c5c404e942d082fd1bba7d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -41362,6 +41390,10 @@ PrefabInstance:
       propertyPath: spriteRenderer
       value: 
       objectReference: {fileID: 6127518198903109813, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
+    - target: {fileID: 7875763253037890680, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: fe43e287a17afc842bcc2d8ea5e0907c, type: 2}
     - target: {fileID: 8413251730511264515, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
       propertyPath: promptText
       value: 
@@ -41495,6 +41527,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Aswang
       objectReference: {fileID: 0}
+    - target: {fileID: 6927638605872545629, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 791d99ee14dbf75438a0fb723f166c5b, type: 2}
     - target: {fileID: 8745097554116563425, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
       propertyPath: uniqueID
       value: Guest8
