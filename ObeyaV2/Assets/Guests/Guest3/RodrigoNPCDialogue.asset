@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcName: Guest3
   npcSprite: {fileID: 21300000, guid: 057c13f7c1e8baf41887d39d6dd8c79d, type: 3}
-  killedNpcSprite: {fileID: 0}
+  killedNpcSprite: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
   aswangResponses:
   - What do I know about aswangs?
   - They are not just the stories told to frighten children.

@@ -32,18 +32,21 @@ MonoBehaviour:
   hearOutDialogues2:
   - My eyes?
   - "Oh, these ol\u2019 things?"
-  - "Just tired, that\u2019s all."
+  - I have "glaucoma." Ever heard of that?
+  - It's a disease that causes me vision loss.
+  - It is why I needed shelter that fast away from the monsters.
   hearOutDialogues3:
   - Teeth?
   - "Still good for chomping, don\u2019t you think?"
   hearOutDialogues4:
-  - This smile?
-  - Genuine as they come!
+  - No can do.
+  - There's nothing to smile, kid.
   dialoguesNight1:
   - "Thanks for letting ol\u2019 Bruno crash here."
   - "Don\u2019t worry, I\u2019m good company!"
   dialoguesNight2:
-  - "These walls feel thin, don\u2019t they?"
+  - "Thanks for letting ol\u2019 Bruno crash here."
+  - "By the way... These walls feel thin, don\u2019t they?"
   - " Like... they\u2019re breathing."
   dialoguesNight3:
   - Funny thing about survival...
