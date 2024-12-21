@@ -23,25 +23,22 @@ MonoBehaviour:
   - " Some people used to say it\u2019s a punishment."
   - "Me? I think it\u2019s just life finally showing its true colors."
   killDialogues:
-  - Wait what are you doing with that gu-
-  hearOutDialogues:
-  - Thank you for hearing me out.
+  - Heh... gues the joke's on me after a-
+  hearOutDialogues: []
   hearOutDialogues1:
-  - THIS NPC HAS SHORT LIMBS
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - Help
+  - Long arms?
+  - Heh, helps me give better hugs.
+  - You afraid of a little reach?
   hearOutDialogues2:
-  - THIS NPC HASN'T SLEPT FOR DAYS
-  - Placeholder Dialgoue...
+  - My eyes?
+  - "Oh, these ol\u2019 things?"
+  - "Just tired, that\u2019s all."
   hearOutDialogues3:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - Teeth?
+  - "Still good for chomping, don\u2019t you think?"
   hearOutDialogues4:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - This smile?
+  - Genuine as they come!
   dialoguesNight1:
   - Hi there.
   dialoguesNight2:

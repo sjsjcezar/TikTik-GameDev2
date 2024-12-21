@@ -28,24 +28,19 @@ MonoBehaviour:
   - "My guess? Someone tampered with something they shouldn\u2019t have."
   - "And now we\u2019re all stuck dealing with the fallout."
   killDialogues:
-  - Wait what are you doing with that gu-
+  - I thought I had it all calculate-
   hearOutDialogues: []
   hearOutDialogues1:
-  - THIS NPC HAS SHORT LIMBS
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - Help
+  - My arms?
+  - Nothing special about them.
   hearOutDialogues2:
-  - THIS NPC HASN'T SLEPT FOR DAYS
-  - Placeholder Dialgoue...
+  - The eyes are the windows to the soul.
+  - What do you see?
   hearOutDialogues3:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - My teeth?
+  - Still clean, even in this mess of a world.
   hearOutDialogues4:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - "I\u2019ll smile when there\u2019s something worth smiling about."
   dialoguesNight1:
   - Hi there.
   dialoguesNight2:

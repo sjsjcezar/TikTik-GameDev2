@@ -26,25 +26,20 @@ MonoBehaviour:
   - "All I know is, it\u2019s dark, and everything out there wants to kill us."
   - That enough for you?
   killDialogues:
-  - Wait what are you doing with that gu-
-  hearOutDialogues:
-  - Thank you for hearing me out.
+  - Go on, then! Do it! Do i-
+  hearOutDialogues: []
   hearOutDialogues1:
-  - THIS NPC HAS SHORT LIMBS
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - Help
+  - My arms?
+  - Built for smashing skulls and breaking bones.
   hearOutDialogues2:
-  - THIS NPC HASN'T SLEPT FOR DAYS
-  - Placeholder Dialgoue...
+  - Eyes like mine?
+  - "They\u2019ve seen worse than you, that\u2019s for sure."
   hearOutDialogues3:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - These teeth?
+  - "They\u2019ve torn through worse things than bread."
   hearOutDialogues4:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - A smile?
+  - "Ha! You wouldn\u2019t want to see it."
   dialoguesNight1:
   - Hi there.
   dialoguesNight2:

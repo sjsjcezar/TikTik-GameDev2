@@ -26,25 +26,20 @@ MonoBehaviour:
   - "One moment, someone\u2019s right beside you, and the next... they\u2019re gone."
   - "It\u2019s like the dark itself swallows them whole."
   killDialogues:
-  - Wait what are you doing with that gu-
-  hearOutDialogues:
-  - Thank you for hearing me out.
+  - I only wanted some peace and qui-
+  hearOutDialogues: []
   hearOutDialogues1:
-  - THIS NPC HAS SHORT LIMBS
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - Help
+  - My arms?
+  - Just the same as always... I think.
   hearOutDialogues2:
-  - THIS NPC HASN'T SLEPT FOR DAYS
-  - Placeholder Dialgoue...
+  - "Eyes like mine don\u2019t lie."
+  - "They\u2019re just... tired."
   hearOutDialogues3:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - Teeth?
+  - Do they look strange to you?
+  - "I\u2019ve... never noticed."
   hearOutDialogues4:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - "I\u2019d smile if I knew how to anymore."
   dialoguesNight1:
   - Hi there.
   dialoguesNight2:

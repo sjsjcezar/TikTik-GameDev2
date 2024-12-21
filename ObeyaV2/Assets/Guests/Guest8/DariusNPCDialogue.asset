@@ -29,24 +29,23 @@ MonoBehaviour:
   - "I don\u2019t put stock in all that doom and gloom."
   - "Whatever it is, I\u2019m sure I\u2019ll be fine. Nothing lasts forever, right?"
   killDialogues:
-  - Wait what are you doing with that gu-
+  - You'll regret this. The darkness spares no o-
   hearOutDialogues: []
   hearOutDialogues1:
-  - THIS NPC HAS SHORT LIMBS
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - Help
+  - "You\u2019re staring."
+  - My arms too big for you?
   hearOutDialogues2:
-  - THIS NPC HASN'T SLEPT FOR DAYS
-  - Placeholder Dialgoue...
+  - Like what you see?
+  - No?
+  - Good.
   hearOutDialogues3:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - My teeth?
+  - Sharp as ever.
+  - Wanna see?
   hearOutDialogues4:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - A smile?
+  - Sure.
+  - "Let\u2019s pretend everything\u2019s fine, huh?"
   dialoguesNight1:
   - Hi there.
   dialoguesNight2:

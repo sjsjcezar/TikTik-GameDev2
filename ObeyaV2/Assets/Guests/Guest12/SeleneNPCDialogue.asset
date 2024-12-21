@@ -29,25 +29,20 @@ MonoBehaviour:
   - "Maybe it\u2019s not something to fear. Maybe it\u2019s something to embrace."
   - "Though, if you\u2019re scared I could keep you company."
   killDialogues:
-  - Wait what are you doing with that gu-
-  hearOutDialogues:
-  - Thank you for hearing me out.
+  - Such a shame... I really thought we could be somethi-
+  hearOutDialogues: []
   hearOutDialogues1:
-  - THIS NPC HAS SHORT LIMBS
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - Help
+  - My arms?
+  - "Oh, they\u2019re perfectly normal, don\u2019t you think?"
   hearOutDialogues2:
-  - THIS NPC HASN'T SLEPT FOR DAYS
-  - Placeholder Dialgoue...
+  - Do my eyes unsettle you?
+  - I hope not.
   hearOutDialogues3:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - My teeth?
+  - You flatter me with your attention.
   hearOutDialogues4:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - My smile?
+  - Well, I do try to keep it charming.
   dialoguesNight1:
   - Hi there.
   dialoguesNight2:

@@ -26,22 +26,20 @@ MonoBehaviour:
   - "I suspect it is connected to ancient rites\u2014forgotten for good reason."
   - If my theories hold, this is no accident but a deliberate act.
   killDialogues:
-  - Wait what are you doing with that gu-
+  - You just wasted an opportunity to evolv-
   hearOutDialogues: []
   hearOutDialogues1:
   - You wish to look at my limbs?
   - I assure you they are very normal.
-  - But since you insist.
+  - Used to carry heavy books back home.
   hearOutDialogues2:
-  - THIS NPC HASN'T SLEPT FOR DAYS
-  - Placeholder Dialgoue...
+  - Do my eyes frighten you?
+  - They shouldn't.
   hearOutDialogues3:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - Ah, my teeth?
+  - "The world\u2019s not pretty anymore; neither am I."
   hearOutDialogues4:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - "I could smile... if you weren\u2019t so afraid of what you\u2019d see."
   dialoguesNight1:
   - Hi there.
   dialoguesNight2:

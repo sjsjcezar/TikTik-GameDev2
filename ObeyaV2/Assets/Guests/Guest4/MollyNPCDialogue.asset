@@ -24,25 +24,20 @@ MonoBehaviour:
   - They said it was the end of everything.
   - "I don\u2019t know if they were right, but... it feels like they were."
   killDialogues:
-  - Wait what are you doing with that gu-
-  hearOutDialogues:
-  - Thank you for hearing me out.
+  - No, no, no! I... I just wanted to survi-
+  hearOutDialogues: []
   hearOutDialogues1:
-  - THIS NPC HAS SHORT LIMBS
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - Help
+  - My arms?
+  - "They\u2019re normal... right?"
   hearOutDialogues2:
-  - THIS NPC HASN'T SLEPT FOR DAYS
-  - Placeholder Dialgoue...
+  - "I know I\u2019ve got bags under my eyes."
+  - Long nights, you know?
   hearOutDialogues3:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - "I... I don\u2019t want to show my teeth."
+  - Why are you asking?
   hearOutDialogues4:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - "I... I can\u2019t smile."
+  - Not after everything.
   dialoguesNight1:
   - Hi there.
   dialoguesNight2:

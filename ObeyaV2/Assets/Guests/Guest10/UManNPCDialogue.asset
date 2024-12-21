@@ -32,25 +32,20 @@ MonoBehaviour:
   - "But I do know how to survive it. Stick with me, and maybe I\u2019ll teach you
     a few tricks."
   killDialogues:
-  - Wait what are you doing with that gu-
-  hearOutDialogues:
-  - Thank you for hearing me out.
+  - You don't know what you're doin-
+  hearOutDialogues: []
   hearOutDialogues1:
-  - THIS NPC HAS SHORT LIMBS
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - Help
+  - My arms are fine.
+  - You think otherwise?
   hearOutDialogues2:
-  - THIS NPC HASN'T SLEPT FOR DAYS
-  - Placeholder Dialgoue...
+  - Eyes tell stories.
+  - Mine?
+  - No happy endings.
   hearOutDialogues3:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - Teeth are for survival, not for show.
   hearOutDialogues4:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - A smile?
+  - "Hmph. It\u2019s been years since I had a reason for one."
   dialoguesNight1:
   - Hi there.
   dialoguesNight2:
