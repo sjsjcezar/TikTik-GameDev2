@@ -90,17 +90,17 @@ MonoBehaviour:
   insideDialogueOption4: I need to go now.
   featureDialoguesList:
   - featureName: Elongated Limbs
-    featureImage: {fileID: 21300000, guid: 6e6540aaa0a2d93409a3f8a8f857f70f, type: 3}
+    featureImage: {fileID: 21300000, guid: 30a64b5a61f26684990f98fc86f96bac, type: 3}
     featureDialogues:
     - Of course, take a look.
     hearOutDialogue: 
   - featureName: Dark Eyes
-    featureImage: {fileID: 21300000, guid: e9b468827541534419765f86eda39335, type: 3}
+    featureImage: {fileID: 21300000, guid: c653d09a030d31f4787a1dda92f26f4d, type: 3}
     featureDialogues:
     - You like what you see?
     hearOutDialogue: 
   - featureName: Sharp Teeth
-    featureImage: {fileID: 21300000, guid: e3456448532adc849adba0989a0da553, type: 3}
+    featureImage: {fileID: 21300000, guid: 751b853c5a8c04c4f952b038407f69e9, type: 3}
     featureDialogues:
     - Sure, if it'll ease your mind.
     hearOutDialogue: 
