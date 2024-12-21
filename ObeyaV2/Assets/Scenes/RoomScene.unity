@@ -967,6 +967,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6075291894925302070, guid: e7d01427cb2c1e443b76036796ae1a70, type: 3}
+      propertyPath: killPanel
+      value: 
+      objectReference: {fileID: 417464599}
     - target: {fileID: 6402664608262806224, guid: e7d01427cb2c1e443b76036796ae1a70, type: 3}
       propertyPath: promptText
       value: 
@@ -2997,6 +3001,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407871780}
+  m_CullTransparentMesh: 1
+--- !u!1 &417464599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 417464600}
+  - component: {fileID: 417464602}
+  - component: {fileID: 417464601}
+  m_Layer: 5
+  m_Name: KillPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &417464600
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417464599}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1254046654}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &417464601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417464599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &417464602
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417464599}
   m_CullTransparentMesh: 1
 --- !u!1 &427325651
 GameObject:
@@ -27405,6 +27484,7 @@ RectTransform:
   - {fileID: 1168802066}
   - {fileID: 910098263}
   - {fileID: 737224362}
+  - {fileID: 417464600}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -30994,6 +31074,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 0}
   deadBodySprite: {fileID: 0}
   uniqueID: same to NpcDialogue SO (Npc Name)
+  killPanel: {fileID: 0}
+  fadeDuration: 1
 --- !u!95 &1620323616
 Animator:
   serializedVersion: 5
@@ -40032,6 +40114,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3131376338503310117, guid: cbaabba658251074dbe6f28f9a5a9ade, type: 3}
+      propertyPath: killPanel
+      value: 
+      objectReference: {fileID: 417464599}
     - target: {fileID: 4522286085765809916, guid: cbaabba658251074dbe6f28f9a5a9ade, type: 3}
       propertyPath: m_LocalPosition.x
       value: -50.82
@@ -40292,6 +40378,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1070184618118883349, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
+      propertyPath: killPanel
+      value: 
+      objectReference: {fileID: 417464599}
     - target: {fileID: 3434335624496274130, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
       propertyPath: m_LocalPosition.x
       value: -60.84
@@ -40361,6 +40451,10 @@ PrefabInstance:
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
+    - target: {fileID: 3264786963331778398, guid: b03ef5865cf38794cb93c76cbdf6b2a9, type: 3}
+      propertyPath: killPanel
+      value: 
+      objectReference: {fileID: 417464599}
     - target: {fileID: 3460354212386506180, guid: b03ef5865cf38794cb93c76cbdf6b2a9, type: 3}
       propertyPath: m_Name
       value: Guest1
@@ -40470,6 +40564,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9029684640676869115, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
+      propertyPath: killPanel
+      value: 
+      objectReference: {fileID: 417464599}
     - target: {fileID: 9101080740795132309, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
       propertyPath: dialogueManager
       value: 
@@ -40487,6 +40585,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1561492742954696519, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
+      propertyPath: killPanel
+      value: 
+      objectReference: {fileID: 417464599}
     - target: {fileID: 2659847536286806331, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
       propertyPath: m_LocalPosition.x
       value: -41.36
@@ -40556,6 +40658,10 @@ PrefabInstance:
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
+    - target: {fileID: 2047975920460468196, guid: 05508696983861b4486269f4674267c1, type: 3}
+      propertyPath: killPanel
+      value: 
+      objectReference: {fileID: 417464599}
     - target: {fileID: 6844506872190533529, guid: 05508696983861b4486269f4674267c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -62.81
@@ -40669,6 +40775,10 @@ PrefabInstance:
       propertyPath: promptText
       value: 
       objectReference: {fileID: 1450693650}
+    - target: {fileID: 7400797440943875837, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
+      propertyPath: killPanel
+      value: 
+      objectReference: {fileID: 417464599}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40734,6 +40844,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Guest5
       objectReference: {fileID: 0}
+    - target: {fileID: 3960206652369975214, guid: a4a2817d51b9aed4c95ca43008b8ab26, type: 3}
+      propertyPath: killPanel
+      value: 
+      objectReference: {fileID: 417464599}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40747,6 +40861,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2179690203541154199, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
+      propertyPath: killPanel
+      value: 
+      objectReference: {fileID: 417464599}
     - target: {fileID: 2344932927539160284, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
       propertyPath: promptText
       value: 
@@ -40860,6 +40978,10 @@ PrefabInstance:
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
+    - target: {fileID: 4117791131086223252, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
+      propertyPath: killPanel
+      value: 
+      objectReference: {fileID: 417464599}
     - target: {fileID: 8413251730511264515, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
       propertyPath: promptText
       value: 
@@ -40946,6 +41068,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Guest8
       objectReference: {fileID: 0}
+    - target: {fileID: 8745097554116563425, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
+      propertyPath: killPanel
+      value: 
+      objectReference: {fileID: 417464599}
     - target: {fileID: 8864083021668568811, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -44.92

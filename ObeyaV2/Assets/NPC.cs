@@ -1,4 +1,7 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.Rendering;
 
 public class NPC : MonoBehaviour
 {
@@ -10,7 +13,10 @@ public class NPC : MonoBehaviour
     private Animator animator; // Reference to the Animator component
 
     public string uniqueID;
-    private bool isDead = false; 
+    private bool isDead = false;
+    public GameObject killPanel;
+    private Image panelImage;
+    public float fadeDuration = 3f;
 
     private void Awake()
     {
@@ -26,6 +32,7 @@ public class NPC : MonoBehaviour
 
     public void SwapToDeadSprite()
     {
+        Transition();
         if (animator != null)
         {
             animator.enabled = false;
@@ -62,4 +69,35 @@ public class NPC : MonoBehaviour
         // Return true if the feature index is valid, otherwise false
         return featureIndex >= 0 && featureIndex < npcDialogue.featureDialoguesList.Count;
     }
+
+    void Transition()
+    {
+        killPanel.SetActive(true);
+        StartCoroutine(FadePanel(1f, 0f));
+        
+    }
+
+    private IEnumerator FadePanel(float startAlpha, float endAlpha)
+    {
+        float elapsedTime = 0f;
+        CanvasGroup canvasGroup = killPanel.GetComponent<CanvasGroup>();
+
+        // Ensure the panel has a CanvasGroup component
+        if (canvasGroup == null)
+        {
+            canvasGroup = killPanel.AddComponent<CanvasGroup>();
+        }
+
+        canvasGroup.alpha = startAlpha; // Set initial alpha
+        while (elapsedTime < fadeDuration)
+        {
+            elapsedTime += Time.deltaTime;
+            canvasGroup.alpha = Mathf.Lerp(startAlpha, endAlpha, elapsedTime / fadeDuration);
+            yield return null; // Wait for the next frame
+        }
+
+        canvasGroup.alpha = endAlpha; // Ensure final alpha is set
+        killPanel.SetActive(false);
+    }
 }
+
