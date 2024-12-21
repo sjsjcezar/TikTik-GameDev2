@@ -16,17 +16,12 @@ MonoBehaviour:
   npcSprite: {fileID: 21300000, guid: be84aef5191f51249b64c0bd38696a75, type: 3}
   killedNpcSprite: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
   aswangResponses:
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - I dont know
-  - Help
+  - "Oh, those things? They\u2019re fast, nasty, and always hungry."
+  - But the real nightmare? The way they stare at you... like they know you.
   eclipseResponses:
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - I dont know
-  - Help
+  - "Only that it\u2019s as endless as it feels."
+  - " Some people used to say it\u2019s a punishment."
+  - "Me? I think it\u2019s just life finally showing its true colors."
   killDialogues:
   - Wait what are you doing with that gu-
   hearOutDialogues:
@@ -57,31 +52,29 @@ MonoBehaviour:
   - Hello there.
   dialoguesNight5: []
   introductoryDialogue:
-  - "Good evening. I hope you don\u2019t mind me intruding. It\u2019s rare to find
-    someone wandering these dark paths, especially so late."
+  - Hey there! Anybody home?
+  - I could really use a roof over my head.
+  - "Monsters aren\u2019t really my crowd, you know? I\u2019m better with people...
+    like you."
+  - "So, how about it? Let\u2019s make this night a little less terrifying."
   option1Responses:
-  - My name is Molly.
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - "Bruno\u2019s the name, keeping spirits up is the game."
+  - Though... maybe mine needs a little lifting tonight, too.
   option1_1Responses:
-  - Name's Molly
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - "Oh, a little nowhere town you\u2019ve probably never heard of."
+  - Not much left of it now. Just memories... and me, I guess.
   option2Responses:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue... 2
-  - Placeholder Dialgoue... 3
-  - Placeholder Dialgoue... 4
+  - "Me? Oh, I\u2019m fine! Totally fine."
+  - Well... fine enough, you know?
+  - Just trying not to let the gloom swallow me whole.
   option2_1Responses:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue... 2
-  - Placeholder Dialgoue... 3
-  - Placeholder Dialgoue... 4
-  option1ButtonText: Placeholder Option
-  option1_1ButtonText: Placeholder Option
-  option2ButtonText: Placeholder Option
-  option2_1ButtonText: Placeholder Option
+  - "Because you don\u2019t have a reason not to, do you?"
+  - " Besides, who\u2019d want to hurt someone in this mess?"
+  - " Okay, maybe don\u2019t answer that... but I\u2019m not one of them, I promise."
+  option1ButtonText: Who are you?
+  option1_1ButtonText: Where are your from?
+  option2ButtonText: Are you really okay?
+  option2_1ButtonText: Why should I trust you?
   insideDialogueOption1: What do you know about the aswangs?
   insideDialogueOption2: Do you know about this "Eternal Eclipse?"
   insideDialogueOption3: I need to check on you.

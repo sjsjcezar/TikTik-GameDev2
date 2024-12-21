@@ -100,18 +100,11 @@ MonoBehaviour:
   - My name is Maria..
   option2Responses:
   - Just looking for a place that feels safer than out there.
-  - Can you?
-  - Test
-  - OMG
-  - nO WAY!
+  - I'm sure it's safer in there.
+  - Can you please let me in?
   option2_1Responses:
   - "Alone is all I\u2019ve got left these days."
-  - nO WAY!
-  - Can you?
-  - Test
-  - OMG
-  - nO WAY!
-  - PLSS SPEED LET ME IN
+  - I'm so cold, can you please let me in?
   option1ButtonText: Who are you?
   option1_1ButtonText: Where are you from?
   option2ButtonText: What brings you here?

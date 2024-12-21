@@ -40435,8 +40435,20 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1070184618118883349, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
       propertyPath: uniqueID
-      value: Guest7
+      value: Elias
       objectReference: {fileID: 0}
+    - target: {fileID: 1070184618118883349, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 6f448ffa9559d1a4b802dc2ac05dbdab, type: 2}
+    - target: {fileID: 1070184618118883349, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
+      propertyPath: deadBodySprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
+    - target: {fileID: 1070184618118883349, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 799799494183181902, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
     - target: {fileID: 3434335624496274130, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
       propertyPath: m_LocalPosition.x
       value: -60.96
@@ -40487,20 +40499,28 @@ PrefabInstance:
       objectReference: {fileID: 1450693650}
     - target: {fileID: 4308367223411011287, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
       propertyPath: interactionText
-      value: '[Q] Guest7'
+      value: '[Q] Elias'
       objectReference: {fileID: 0}
     - target: {fileID: 4308367223411011287, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
       propertyPath: isDeadInteractionText
-      value: Dead Guest7
+      value: Dead Elias
       objectReference: {fileID: 0}
     - target: {fileID: 6929942338212730954, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
       propertyPath: currentNPC
       value: 
       objectReference: {fileID: 56888372682518318}
     - target: {fileID: 6929942338212730954, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 6f448ffa9559d1a4b802dc2ac05dbdab, type: 2}
+    - target: {fileID: 6929942338212730954, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
+    - target: {fileID: 7432132520927486295, guid: 82e81485c8ad13c42a9ae93299c4f821, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 6f448ffa9559d1a4b802dc2ac05dbdab, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40628,17 +40648,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3694687153585078364, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: afcf3b0c928ff36458f735ee159a4a98, type: 2}
     - target: {fileID: 5638123142172451651, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
       propertyPath: promptText
       value: 
       objectReference: {fileID: 1450693650}
     - target: {fileID: 5638123142172451651, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
       propertyPath: interactionText
-      value: '[Q] Guest9'
+      value: '[Q] Lila'
       objectReference: {fileID: 0}
     - target: {fileID: 5638123142172451651, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
       propertyPath: isDeadInteractionText
-      value: Dead Guest9
+      value: Dead Lila
       objectReference: {fileID: 0}
     - target: {fileID: 7672702007831538577, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
       propertyPath: m_Name
@@ -40686,12 +40710,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9029684640676869115, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
       propertyPath: uniqueID
-      value: Guest9
+      value: Lila
       objectReference: {fileID: 0}
+    - target: {fileID: 9029684640676869115, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: afcf3b0c928ff36458f735ee159a4a98, type: 2}
+    - target: {fileID: 9029684640676869115, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
+      propertyPath: deadBodySprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
+    - target: {fileID: 9029684640676869115, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 7338596571001631931, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
     - target: {fileID: 9101080740795132309, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
       propertyPath: currentNPC
       value: 
       objectReference: {fileID: 1472236035709590160}
+    - target: {fileID: 9101080740795132309, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: afcf3b0c928ff36458f735ee159a4a98, type: 2}
     - target: {fileID: 9101080740795132309, guid: aa77d7a21634a9f4383bf8d11b613b1e, type: 3}
       propertyPath: dialogueManager
       value: 
@@ -40722,8 +40762,20 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1561492742954696519, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
       propertyPath: uniqueID
-      value: Guest12
+      value: Selene
       objectReference: {fileID: 0}
+    - target: {fileID: 1561492742954696519, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: a17520b505edde64199ae4096ae4edee, type: 2}
+    - target: {fileID: 1561492742954696519, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
+      propertyPath: deadBodySprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
+    - target: {fileID: 1561492742954696519, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 8780859398870646175, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
     - target: {fileID: 2659847536286806331, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
       propertyPath: m_LocalPosition.x
       value: -56.47
@@ -40770,20 +40822,28 @@ PrefabInstance:
       objectReference: {fileID: 1450693650}
     - target: {fileID: 4986480664438938638, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
       propertyPath: interactionText
-      value: '[Q] Guest12'
+      value: '[Q] Selene'
       objectReference: {fileID: 0}
     - target: {fileID: 4986480664438938638, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
       propertyPath: isDeadInteractionText
-      value: Dead Guest12
+      value: Dead Selene
       objectReference: {fileID: 0}
     - target: {fileID: 5025011602199906184, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
       propertyPath: currentNPC
       value: 
       objectReference: {fileID: 2199817144796965562}
     - target: {fileID: 5025011602199906184, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: a17520b505edde64199ae4096ae4edee, type: 2}
+    - target: {fileID: 5025011602199906184, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
+    - target: {fileID: 7067802032013523842, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: a17520b505edde64199ae4096ae4edee, type: 2}
     - target: {fileID: 8529062439279046693, guid: 42c81d2e66fc4614cae1574752cc9496, type: 3}
       propertyPath: m_Name
       value: Guest12
@@ -40882,6 +40942,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3080399386292059077}
     - target: {fileID: 81511672526867390, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 3aae12663ac33fb4fb8b230e7d9d8ec4, type: 2}
+    - target: {fileID: 81511672526867390, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
@@ -40925,6 +40989,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2938126543223585517, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 3aae12663ac33fb4fb8b230e7d9d8ec4, type: 2}
     - target: {fileID: 5788250196407870740, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
       propertyPath: m_Name
       value: Guest10
@@ -40935,16 +41003,28 @@ PrefabInstance:
       objectReference: {fileID: 1450693650}
     - target: {fileID: 6215146888323344695, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
       propertyPath: interactionText
-      value: '[Q] Guest10'
+      value: '[Q] Unknown Man'
       objectReference: {fileID: 0}
     - target: {fileID: 6215146888323344695, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
       propertyPath: isDeadInteractionText
-      value: Dead Guest10
+      value: Dead Unknown Man
       objectReference: {fileID: 0}
     - target: {fileID: 7400797440943875837, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
       propertyPath: uniqueID
-      value: Guest10
+      value: UnknownMan
       objectReference: {fileID: 0}
+    - target: {fileID: 7400797440943875837, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 3aae12663ac33fb4fb8b230e7d9d8ec4, type: 2}
+    - target: {fileID: 7400797440943875837, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
+      propertyPath: deadBodySprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
+    - target: {fileID: 7400797440943875837, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 3828620024594333525, guid: 447df94f0beb51149b0bdbf5fb2ceb05, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -41048,20 +41128,36 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2179690203541154199, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
       propertyPath: uniqueID
-      value: Guest6
+      value: Miguel
       objectReference: {fileID: 0}
+    - target: {fileID: 2179690203541154199, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: b3b8f1e6532960d46b262f7a347cecd3, type: 2}
+    - target: {fileID: 2179690203541154199, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
+      propertyPath: deadBodySprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
+    - target: {fileID: 2179690203541154199, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 4381313685498186843, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
     - target: {fileID: 2344932927539160284, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
       propertyPath: promptText
       value: 
       objectReference: {fileID: 1450693650}
     - target: {fileID: 2344932927539160284, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
       propertyPath: interactionText
-      value: '[Q] Guest6'
+      value: '[Q] Miguel'
       objectReference: {fileID: 0}
     - target: {fileID: 2344932927539160284, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
       propertyPath: isDeadInteractionText
-      value: Dead Guest6
+      value: Dead Miguel
       objectReference: {fileID: 0}
+    - target: {fileID: 4092748654177677096, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: b3b8f1e6532960d46b262f7a347cecd3, type: 2}
     - target: {fileID: 4145840880968797116, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
       propertyPath: m_Name
       value: Guest6
@@ -41110,6 +41206,10 @@ PrefabInstance:
       propertyPath: currentNPC
       value: 
       objectReference: {fileID: 6564173485408984100}
+    - target: {fileID: 6316327817816589755, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: b3b8f1e6532960d46b262f7a347cecd3, type: 2}
     - target: {fileID: 6316327817816589755, guid: 7a9e95a946e4581468e0d880b65cae36, type: 3}
       propertyPath: dialogueManager
       value: 
@@ -41182,29 +41282,49 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3463002836474939001, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 77900575b67122d48869698e07afb6a4, type: 2}
     - target: {fileID: 3991095651891116298, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
       propertyPath: currentNPC
       value: 
       objectReference: {fileID: 7130981665545708020}
+    - target: {fileID: 3991095651891116298, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 77900575b67122d48869698e07afb6a4, type: 2}
     - target: {fileID: 3991095651891116298, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 1882936957}
     - target: {fileID: 4117791131086223252, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
       propertyPath: uniqueID
-      value: Guest11
+      value: Garron
       objectReference: {fileID: 0}
+    - target: {fileID: 4117791131086223252, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 77900575b67122d48869698e07afb6a4, type: 2}
+    - target: {fileID: 4117791131086223252, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
+      propertyPath: deadBodySprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
+    - target: {fileID: 4117791131086223252, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 6127518198903109813, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
     - target: {fileID: 8413251730511264515, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
       propertyPath: promptText
       value: 
       objectReference: {fileID: 1450693650}
     - target: {fileID: 8413251730511264515, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
       propertyPath: interactionText
-      value: '[Q] Guest11'
+      value: '[Q] Garron'
       objectReference: {fileID: 0}
     - target: {fileID: 8413251730511264515, guid: 83ed9208ecf070444b5f3de90a8cf1e1, type: 3}
       propertyPath: isDeadInteractionText
-      value: Dead Guest11
+      value: Dead Garron
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41293,16 +41413,24 @@ PrefabInstance:
       objectReference: {fileID: 1450693650}
     - target: {fileID: 2938913907441268403, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
       propertyPath: interactionText
-      value: '[Q] Guest8'
+      value: '[Q] Darius'
       objectReference: {fileID: 0}
     - target: {fileID: 2938913907441268403, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
       propertyPath: isDeadInteractionText
-      value: Dead Guest8
+      value: Dead Darius
       objectReference: {fileID: 0}
+    - target: {fileID: 2963879189724414711, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 32dbc244b579fe241836710b0eddbefc, type: 2}
     - target: {fileID: 4727588378446957915, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
       propertyPath: currentNPC
       value: 
       objectReference: {fileID: 8757598446008191828}
+    - target: {fileID: 4727588378446957915, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 32dbc244b579fe241836710b0eddbefc, type: 2}
     - target: {fileID: 4727588378446957915, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
       propertyPath: dialogueManager
       value: 
@@ -41313,8 +41441,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8745097554116563425, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
       propertyPath: uniqueID
-      value: Guest8
+      value: Darius
       objectReference: {fileID: 0}
+    - target: {fileID: 8745097554116563425, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
+      propertyPath: npcDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 32dbc244b579fe241836710b0eddbefc, type: 2}
+    - target: {fileID: 8745097554116563425, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
+      propertyPath: deadBodySprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
+    - target: {fileID: 8745097554116563425, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 7177138255620170505, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
     - target: {fileID: 8864083021668568811, guid: 3920c200453aef94a9788f7cdcaedfc2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -57.92

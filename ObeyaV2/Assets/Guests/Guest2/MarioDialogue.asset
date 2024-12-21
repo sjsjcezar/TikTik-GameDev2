@@ -104,19 +104,17 @@ MonoBehaviour:
     us."
   - "It\u2019s not easy, though\u2014darkness has its way of creeping in, but we
     fight it with every smile and every meal shared together."
-  - "It\u2019s what keeps me going!"
   option2Responses:
   - What brings me here? Well, I heard whispers of a sanctuary amid the shadows,
     a place where light still flickers against the eternal darkness.
-  - TEST
-  - PLSSS LET ME INNN
-  - PLSSSSSSSSSSSSSSS
+  - Those whispers led me here, to your place.
+  - Please tell me those whispers were right, that this place is a sanctuary from
+    the dangers of the changed world.
   option2_1Responses:
   - Am I alone? Perhaps in body, but my spirit carries the voices of my village,
     and I know I'm never truly alone in this fight.
-  - PLSSSSSSSSSSSSSSS
-  - PLSSS LET ME INNN
-  - PLSS SPEED I NEED THIS
+  - Their whispers are my armor and sword.
+  - In this cursed darkness, their light guides my steps.
   option1ButtonText: Who are you?
   option1_1ButtonText: Where are you from?
   option2ButtonText: What brings you here?

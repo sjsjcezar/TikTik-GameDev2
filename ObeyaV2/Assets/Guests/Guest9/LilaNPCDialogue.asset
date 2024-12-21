@@ -10,27 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a8483b510f20d6b4eb59ccbe828005a9, type: 3}
-  m_Name: Guest8NPCDialogue
+  m_Name: LilaNPCDialogue
   m_EditorClassIdentifier: 
-  npcName: Guest8
-  npcSprite: {fileID: 21300000, guid: 99f2b77da90a53c42bb39bae5df7caa1, type: 3}
+  npcName: Guest9
+  npcSprite: {fileID: 21300000, guid: 4e6459c121928254cacdc81b8a3a98f5, type: 3}
   killedNpcSprite: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
   aswangResponses:
-  - Aswangs?
-  - Sounds like something out of a fairy tale.
-  - "You know, the stuff that\u2019s whispered in corners when people are too scared
-    to face the truth."
-  - Monsters, right? Pfft. Never met one.
-  - "But if you ask me, I wouldn\u2019t want to get caught up in something like that."
+  - "They\u2019re terrifying, that\u2019s what I know."
+  - "They don\u2019t just kill\u2014they hunt."
+  - "Stay in the light, or they\u2019ll find you."
+  - And run. Just keep running.
   eclipseResponses:
-  - Eternal Darkness?
-  - That sounds like some poetic nonsense, honestly.
-  - "You know, people get all dramatic about stuff they can\u2019t explain."
-  - "I don\u2019t put stock in all that doom and gloom."
-  - "Whatever it is, I\u2019m sure I\u2019ll be fine. Nothing lasts forever, right?"
+  - "It\u2019s wrong, it\u2019s just wrong."
+  - "You can\u2019t see anything\u2014not even your own hand sometimes."
+  - "One moment, someone\u2019s right beside you, and the next... they\u2019re gone."
+  - "It\u2019s like the dark itself swallows them whole."
   killDialogues:
   - Wait what are you doing with that gu-
-  hearOutDialogues: []
+  hearOutDialogues:
+  - Thank you for hearing me out.
   hearOutDialogues1:
   - THIS NPC HAS SHORT LIMBS
   - Placeholder Dialgoue
@@ -57,31 +55,30 @@ MonoBehaviour:
   - Hello there.
   dialoguesNight5: []
   introductoryDialogue:
-  - "Well, you\u2019re taking your time. I\u2019d like to come in now."
-  - "Standing out here isn\u2019t exactly ideal, wouldn\u2019t you agree?"
-  - "Let\u2019s skip the theatrics and get to it. Open the door, if you please."
+  - Please, let me in.
+  - "They\u2019re out there, I can hear them."
+  - "I don\u2019t know where else to go."
+  - "I\u2019ll do whatever you need, just don\u2019t leave me out here."
   option1Responses:
-  - "Ah, introductions. I\u2019m Darius."
-  - "I don\u2019t usually have to knock this many times to be let in, mind you."
-  - Now, may we continue this conversation somewhere less... exposed?
+  - My name is Lila.
+  - "I\u2019m... I\u2019m no one important, just someone trying to survive."
+  - "Please, I\u2019ll explain more inside."
   option1_1Responses:
-  - Noxus Estate, if you must know.
-  - A place of comfort and, dare I say, sophistication.
-  - Not that it matters now, considering the circumstances.
+  - I live near the east square.
+  - Or I did, before all this happened.
+  - "I don\u2019t think anyone\u2019s left there now."
   option2Responses:
-  - "Why shouldn\u2019t you?"
-  - "I\u2019m unarmed, clearly in need, and, well, I\u2019m hardly a common thug."
-  - "If you\u2019re concerned about danger, the real threat is still out there."
-  - And I'll give you a handsome reward once everything is over.
+  - "I didn\u2019t have a choice."
+  - I thought I could find... I thought I could make it.
+  - Clearly, I was wrong.
   option2_1Responses:
-  - Something catastrophic, obviously.
-  - "Monsters roaming, the darkness all around\u2014doesn\u2019t take a genius to
-    know it\u2019s bad."
-  - If you let me in, perhaps I can make some arrangements when this is over.
+  - "I\u2019ve made it this far, haven\u2019t I."
+  - "I don\u2019t know what I\u2019m doing, but I\u2019m not just going to give up."
+  - Just please, let me in.
   option1ButtonText: Who are you?
   option1_1ButtonText: Where are you from?
-  option2ButtonText: Why should I help you?
-  option2_1ButtonText: What do you think is going on?
+  option2ButtonText: Why are you out there alone?
+  option2_1ButtonText: Can you even handle yourself?
   insideDialogueOption1: What do you know about the aswangs?
   insideDialogueOption2: Do you know about this "Eternal Eclipse?"
   insideDialogueOption3: I need to check on you.

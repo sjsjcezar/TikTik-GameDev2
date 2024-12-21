@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a8483b510f20d6b4eb59ccbe828005a9, type: 3}
-  m_Name: Guest6NPCDialogue
+  m_Name: MiguelNPCDialogue
   m_EditorClassIdentifier: 
   npcName: Guest6
   npcSprite: {fileID: 21300000, guid: 2ccded5b5f4e69340b45369940a04e88, type: 3}
