@@ -16,27 +16,22 @@ MonoBehaviour:
   npcSprite: {fileID: 21300000, guid: 2ccded5b5f4e69340b45369940a04e88, type: 3}
   killedNpcSprite: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
   aswangResponses:
-  - They are the next step to human evolution!
-  - I long to be one of them.
-  - To break free from human weakness.
-  - I dont know
-  - Help
+  - Ah, the aswangs... fascinating beings from folklore, a blend of myth and reality.
+  - Tales of their transformative abilities and nocturnal habits abound, though I
+    suspect much of it stems from misunderstandings of the natural world.
+  - Still, I cannot dismiss the possibility of truths hidden in such stories.
   eclipseResponses:
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - I dont know
-  - Help
+  - The Eternal Darkness is not simply a phenomenon; it is a force of will.
+  - It consumes light and sows despair, unraveling the natural order.
+  - "I suspect it is connected to ancient rites\u2014forgotten for good reason."
+  - If my theories hold, this is no accident but a deliberate act.
   killDialogues:
   - Wait what are you doing with that gu-
-  hearOutDialogues:
-  - Thank you for hearing me out.
+  hearOutDialogues: []
   hearOutDialogues1:
-  - THIS NPC HAS SHORT LIMBS
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - Help
+  - You wish to look at my limbs?
+  - I assure you they are very normal.
+  - But since you insist.
   hearOutDialogues2:
   - THIS NPC HASN'T SLEPT FOR DAYS
   - Placeholder Dialgoue...
@@ -57,38 +52,41 @@ MonoBehaviour:
   - Hello there.
   dialoguesNight5: []
   introductoryDialogue:
-  - "Good evening. I hope you don\u2019t mind me intruding. It\u2019s rare to find
-    someone wandering these dark paths, especially so late."
+  - "Good evening\u2014though I use the term loosely, given the state of the world."
+  - I am in need of shelter.
+  - The streets are far from safe, and I assure you, I am no threat to you.
+  - May I come in?
   option1Responses:
-  - My name is Molly.
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - My name is Miguel.
+  - A scientist, or perhaps a scholar, though the line between the two blurs.
+  - "I seek to understand the unknown\u2014and perhaps, in some small way, to shed
+    light upon it."
+  - "Now, if you\u2019ll permit me, survival must take precedence over introductions."
   option1_1Responses:
-  - Name's Viktor
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - "I hail from the Clockwork Bastion\u2014a city of innovation."
+  - Though it seems even our brightest minds failed to predict this calamity.
+  - Now, the halls of reason echo with silence... and screams.
   option2Responses:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue... 2
-  - Placeholder Dialgoue... 3
-  - Placeholder Dialgoue... 4
+  - A fair question.
+  - I carry no weapon and lack the strength to do harm even if I wished to.
+  - "More importantly, I offer knowledge\u2014knowledge that may keep you alive."
+  - If you turn me away, I fear we both lose something precious.
   option2_1Responses:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue... 2
-  - Placeholder Dialgoue... 3
-  - Placeholder Dialgoue... 4
-  option1ButtonText: Placeholder Option
-  option1_1ButtonText: Placeholder Option
-  option2ButtonText: Placeholder Option
-  option2_1ButtonText: Placeholder Option
+  - Only fragments.
+  - "This phenomenon is not natural\u2014it feels orchestrated, controlled."
+  - If you allow me inside, I may share what I know in greater detail.
+  - But we are wasting precious moments, and time is not our ally.
+  option1ButtonText: Who are you?
+  option1_1ButtonText: Where are you from?
+  option2ButtonText: Why should I trust you?
+  option2_1ButtonText: Do you have knowledge of this darkness?
   insideDialogueOption1: What do you know about the aswangs?
   insideDialogueOption2: Do you know about this "Eternal Eclipse?"
   insideDialogueOption3: I need to check on you.
   insideDialogueOption4: I need to go now.
   featureDialoguesList:
   - featureName: Elongated Limbs
-    featureImage: {fileID: 21300000, guid: 6e6540aaa0a2d93409a3f8a8f857f70f, type: 3}
+    featureImage: {fileID: 0}
     featureDialogues:
     - Placeholder Picture n Dialogue
     hearOutDialogue: 

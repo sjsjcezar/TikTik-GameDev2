@@ -13,20 +13,18 @@ MonoBehaviour:
   m_Name: Guest11NPCDialogue
   m_EditorClassIdentifier: 
   npcName: Guest11
-  npcSprite: {fileID: 0}
+  npcSprite: {fileID: 21300000, guid: f7f3ee1a243f9fa458a8d1bbe1ec9b90, type: 3}
   killedNpcSprite: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
   aswangResponses:
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - I dont know
-  - Help
+  - Those ugly freaks?
+  - "Yeah, they\u2019re fast and they\u2019ll tear you apart if you\u2019re dumb
+    enough to get close."
+  - Why, you planning on feeding me to them?
   eclipseResponses:
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - I dont know
-  - Help
+  - What kind of stupid question is that?
+  - Of course not!
+  - "All I know is, it\u2019s dark, and everything out there wants to kill us."
+  - That enough for you?
   killDialogues:
   - Wait what are you doing with that gu-
   hearOutDialogues:
@@ -57,31 +55,29 @@ MonoBehaviour:
   - Hello there.
   dialoguesNight5: []
   introductoryDialogue:
-  - "Good evening. I hope you don\u2019t mind me intruding. It\u2019s rare to find
-    someone wandering these dark paths, especially so late."
+  - Hey! Open up and let me in!
+  - "You think I\u2019m standing out here for fun?"
+  - "It\u2019s pitch black, and there\u2019s monsters everywhere!"
+  - ' Let me in before I tear this door down myself!'
   option1Responses:
-  - My name is Molly.
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - " I\u2019m Garron, and that\u2019s all you need to know."
+  - Now stop wasting my time and let me in!
   option1_1Responses:
-  - Name's Molly
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - "Where I\u2019m from?"
+  - None of your business!
+  - Just open the door before I break it down!
   option2Responses:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue... 2
-  - Placeholder Dialgoue... 3
-  - Placeholder Dialgoue... 4
+  - Because I said so!
+  - You wanna survive the night or not?
+  - You need me more than I need you, so quit stalling!
   option2_1Responses:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue... 2
-  - Placeholder Dialgoue... 3
-  - Placeholder Dialgoue... 4
-  option1ButtonText: Placeholder Option
-  option1_1ButtonText: Placeholder Option
-  option2ButtonText: Placeholder Option
-  option2_1ButtonText: Placeholder Option
+  - Do I look alright to you?
+  - " I\u2019m standing out here with death on my heels!"
+  - Open the damn door and let me in!
+  option1ButtonText: Who are you?
+  option1_1ButtonText: Wher are you from?
+  option2ButtonText: "What makes you think I\u2019ll let you in?"
+  option2_1ButtonText: Are you alright?
   insideDialogueOption1: What do you know about the aswangs?
   insideDialogueOption2: Do you know about this "Eternal Eclipse?"
   insideDialogueOption3: I need to check on you.

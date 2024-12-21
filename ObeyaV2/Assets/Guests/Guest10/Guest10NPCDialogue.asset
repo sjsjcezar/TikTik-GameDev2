@@ -13,20 +13,24 @@ MonoBehaviour:
   m_Name: Guest10NPCDialogue
   m_EditorClassIdentifier: 
   npcName: Guest10
-  npcSprite: {fileID: 0}
+  npcSprite: {fileID: 21300000, guid: fbd489155069ea44c84999aa743cf14d, type: 3}
   killedNpcSprite: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
   aswangResponses:
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - I dont know
-  - Help
+  - Aswangs? Pfft. Monsters, really.
+  - "You think you\u2019ve got it bad?"
+  - Wait 'til one of those things sinks its teeth in.
+  - "They\u2019re like a bad dream that won\u2019t end\u2014too fast, too silent."
+  - "Lucky for you, I\u2019m not in the business of dying."
+  - ' I know how to avoid ''em, but you?'
+  - "Well, let\u2019s just say you\u2019ll need more than prayers."
   eclipseResponses:
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - I dont know
-  - Help
+  - The Eternal Darkness, huh? Big talk, little buddy.
+  - "It\u2019s old news, a real headache for anyone who\u2019s been around as long
+    as I have."
+  - "Not something you want to mess with. If you don\u2019t know already, maybe you\u2019re
+    better off not knowing."
+  - "But I do know how to survive it. Stick with me, and maybe I\u2019ll teach you
+    a few tricks."
   killDialogues:
   - Wait what are you doing with that gu-
   hearOutDialogues:
@@ -57,31 +61,43 @@ MonoBehaviour:
   - Hello there.
   dialoguesNight5: []
   introductoryDialogue:
-  - "Good evening. I hope you don\u2019t mind me intruding. It\u2019s rare to find
-    someone wandering these dark paths, especially so late."
+  - Oi, hey! You in there?
+  - "I don\u2019t have all day, you know!"
+  - "It\u2019s gone dark out here\u2014real dark!"
+  - "Monsters everywhere, you wouldn\u2019t believe it!"
+  - "You\u2019re gonna want to let me in, trust me."
+  - "Now, don\u2019t be rude. Open up!"
   option1Responses:
-  - My name is Molly.
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - Who am I? Ha!
+  - "I\u2019m the guy who\u2019s going to keep you alive."
+  - You should be grateful, really.
+  - "Name\u2019s no concern of yours."
+  - Call me whatever you like, long as the door opens.
+  - "I\u2019ve got things to do, you know."
   option1_1Responses:
-  - Name's Molly
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - Where am I from?
+  - "That\u2019s cute. I\u2019ve been everywhere, buddy."
+  - "Let\u2019s just say... I know a thing or two about places that go bump in the
+    night."
+  - "Let me in, and maybe I\u2019ll tell you some stories. You\u2019ll be dying to
+    know."
   option2Responses:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue... 2
-  - Placeholder Dialgoue... 3
-  - Placeholder Dialgoue... 4
+  - "What\u2019s my deal?"
+  - "The real question is, what\u2019s your deal?"
+  - You think you can just sit in here, nice and safe, while the world outside turns
+    to rot?
+  - Ha! I can smell your type from a mile away.
+  - "You\u2019ll need me more than I need you, trust me."
   option2_1Responses:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue... 2
-  - Placeholder Dialgoue... 3
-  - Placeholder Dialgoue... 4
-  option1ButtonText: Placeholder Option
-  option1_1ButtonText: Placeholder Option
-  option2ButtonText: Placeholder Option
-  option2_1ButtonText: Placeholder Option
+  - Dangerous?
+  - Oh, buddy, you have no idea.
+  - "But let\u2019s not pretend you\u2019re the only one out here, hm?"
+  - "You think you\u2019re in danger? I\u2019ve seen things you can\u2019t even imagine."
+  - "Now, let me in and I\u2019ll keep those monsters at bay."
+  option1ButtonText: Who are you?
+  option1_1ButtonText: Where are you from?
+  option2ButtonText: What's your deal?
+  option2_1ButtonText: Don't you think it's dangerous outside?
   insideDialogueOption1: What do you know about the aswangs?
   insideDialogueOption2: Do you know about this "Eternal Eclipse?"
   insideDialogueOption3: I need to check on you.

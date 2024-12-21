@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: mariaDialogue
   m_EditorClassIdentifier: 
   npcName: Maria
-  npcSprite: {fileID: 21300000, guid: 7f48947f223bb2f4f91797f0ec4c889a, type: 3}
+  npcSprite: {fileID: 21300000, guid: ddcb8d133f350dd43879bba295777cf7, type: 3}
   killedNpcSprite: {fileID: 21300000, guid: 4320c6e4443a8ad46a2ccd5e8b907b63, type: 3}
   aswangResponses:
   - " I don\u2019t know that much\u2026"

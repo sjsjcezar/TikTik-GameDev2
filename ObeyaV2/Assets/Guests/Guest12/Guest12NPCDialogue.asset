@@ -16,17 +16,18 @@ MonoBehaviour:
   npcSprite: {fileID: 0}
   killedNpcSprite: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
   aswangResponses:
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - I dont know
-  - Help
+  - "Such terrible creatures... but fascinating, don\u2019t you think?"
+  - So misunderstood.
+  - Some say they only hunt those who truly deserve it.
+  - "Do you think that\u2019s true?"
+  - "But enough about them. Let\u2019s talk about something more pleasant... like
+    us."
   eclipseResponses:
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - I dont know
-  - Help
+  - Oh, that sounds so ominous.
+  - But you know what they say.
+  - The darkest nights bring people closer together.
+  - "Maybe it\u2019s not something to fear. Maybe it\u2019s something to embrace."
+  - "Though, if you\u2019re scared I could keep you company."
   killDialogues:
   - Wait what are you doing with that gu-
   hearOutDialogues:
@@ -57,31 +58,36 @@ MonoBehaviour:
   - Hello there.
   dialoguesNight5: []
   introductoryDialogue:
-  - "Good evening. I hope you don\u2019t mind me intruding. It\u2019s rare to find
-    someone wandering these dark paths, especially so late."
+  - Oh my, such a gentleman... leaving a lady out here all alone?
+  - It's so dark, and those awful creatures are everywhere.
+  - "Won't you let me in? I promise I\u2019ll make it worth your while."
+  - Or... are you scared of little old me?
   option1Responses:
-  - My name is Molly.
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - "My name is Selene, but you can just call me \"darling.\" Don\u2019t worry, I\u2019m
+    harmless."
+  - "Though, letting me in might be the most thrilling risk you\u2019ve ever taken."
+  - "And really, wouldn\u2019t you rather know me inside where it\u2019s safe?"
   option1_1Responses:
-  - Name's Molly
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - "A place far from here, but that\u2019s not important now, is it?"
+  - "What matters is that I\u2019m here, and you\u2019re my savior."
+  - Would you rather I tell you my life story... or let me escape the monsters out
+    there?
+  - "Don\u2019t make me beg, though I can if you like."
   option2Responses:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue... 2
-  - Placeholder Dialgoue... 3
-  - Placeholder Dialgoue... 4
+  - Oh, come on now. Do I look dangerous to you?
+  - "I\u2019m just a helpless woman looking for a strong, brave protector."
+  - "If I wanted to hurt you, wouldn\u2019t I have done it already?"
+  - "But maybe... I should be asking you if you\u2019re dangerous."
   option2_1Responses:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue... 2
-  - Placeholder Dialgoue... 3
-  - Placeholder Dialgoue... 4
-  option1ButtonText: Placeholder Option
-  option1_1ButtonText: Placeholder Option
-  option2ButtonText: Placeholder Option
-  option2_1ButtonText: Placeholder Option
+  - Danger?
+  - I suppose I do handle myself well under pressure.
+  - "But trust me, I\u2019d feel so much safer with you."
+  - "Sometimes, keeping calm is the best survival skill. Don\u2019t you agree?"
+  - "Or maybe I just know I\u2019m exactly where I need to be."
+  option1ButtonText: Who are you?
+  option1_1ButtonText: Where are you from?
+  option2ButtonText: How do I know you're not dangerous?
+  option2_1ButtonText: You seem oddly calm for someone in danger.
   insideDialogueOption1: What do you know about the aswangs?
   insideDialogueOption2: Do you know about this "Eternal Eclipse?"
   insideDialogueOption3: I need to check on you.

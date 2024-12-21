@@ -16,21 +16,21 @@ MonoBehaviour:
   npcSprite: {fileID: 21300000, guid: 99f2b77da90a53c42bb39bae5df7caa1, type: 3}
   killedNpcSprite: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
   aswangResponses:
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - I dont know
-  - Help
+  - Aswangs?
+  - Sounds like something out of a fairy tale.
+  - "You know, the stuff that\u2019s whispered in corners when people are too scared
+    to face the truth."
+  - Monsters, right? Pfft. Never met one.
+  - "But if you ask me, I wouldn\u2019t want to get caught up in something like that."
   eclipseResponses:
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - I dont know
-  - Help
+  - Eternal Darkness?
+  - That sounds like some poetic nonsense, honestly.
+  - "You know, people get all dramatic about stuff they can\u2019t explain."
+  - "I don\u2019t put stock in all that doom and gloom."
+  - "Whatever it is, I\u2019m sure I\u2019ll be fine. Nothing lasts forever, right?"
   killDialogues:
   - Wait what are you doing with that gu-
-  hearOutDialogues:
-  - Thank you for hearing me out.
+  hearOutDialogues: []
   hearOutDialogues1:
   - THIS NPC HAS SHORT LIMBS
   - Placeholder Dialgoue
@@ -57,31 +57,31 @@ MonoBehaviour:
   - Hello there.
   dialoguesNight5: []
   introductoryDialogue:
-  - "Good evening. I hope you don\u2019t mind me intruding. It\u2019s rare to find
-    someone wandering these dark paths, especially so late."
+  - "Well, you\u2019re taking your time. I\u2019d like to come in now."
+  - "Standing out here isn\u2019t exactly ideal, wouldn\u2019t you agree?"
+  - "Let\u2019s skip the theatrics and get to it. Open the door, if you please."
   option1Responses:
-  - My name is Molly.
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - "Ah, introductions. I\u2019m Darius."
+  - "I don\u2019t usually have to knock this many times to be let in, mind you."
+  - Now, may we continue this conversation somewhere less... exposed?
   option1_1Responses:
-  - Name's Guest8
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - Noxus Estate, if you must know.
+  - A place of comfort and, dare I say, sophistication.
+  - Not that it matters now, considering the circumstances.
   option2Responses:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue... 2
-  - Placeholder Dialgoue... 3
-  - Placeholder Dialgoue... 4
+  - "Why shouldn\u2019t you?"
+  - "I\u2019m unarmed, clearly in need, and, well, I\u2019m hardly a common thug."
+  - "If you\u2019re concerned about danger, the real threat is still out there."
+  - And I'll give you a handsome reward once everything is over.
   option2_1Responses:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue... 2
-  - Placeholder Dialgoue... 3
-  - Placeholder Dialgoue... 4
-  option1ButtonText: Placeholder Option
-  option1_1ButtonText: Placeholder Option
-  option2ButtonText: Placeholder Option
-  option2_1ButtonText: Placeholder Option
+  - Something catastrophic, obviously.
+  - "Monsters roaming, the darkness all around\u2014doesn\u2019t take a genius to
+    know it\u2019s bad."
+  - If you let me in, perhaps I can make some arrangements when this is over.
+  option1ButtonText: Who are you?
+  option1_1ButtonText: Where are you from?
+  option2ButtonText: Why should I help you?
+  option2_1ButtonText: What do you think is going on?
   insideDialogueOption1: What do you know about the aswangs?
   insideDialogueOption2: Do you know about this "Eternal Eclipse?"
   insideDialogueOption3: I need to check on you.

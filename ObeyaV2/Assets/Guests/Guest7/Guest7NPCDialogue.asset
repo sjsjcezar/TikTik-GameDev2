@@ -16,21 +16,20 @@ MonoBehaviour:
   npcSprite: {fileID: 21300000, guid: 36790c7b7092f5a48b77832edec6be11, type: 3}
   killedNpcSprite: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
   aswangResponses:
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - I dont know
-  - Help
+  - Vicious, cunning, and downright unnatural.
+  - "They hunt in the dark, and they don\u2019t make mistakes often."
+  - "If you\u2019ve got light, use it. If you don\u2019t, you\u2019re asking for
+    trouble."
+  - "And whatever you do, don\u2019t think you can outrun them."
   eclipseResponses:
-  - Placeholder Dialgoue
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue....
-  - I dont know
-  - Help
+  - "All I know is it\u2019s not normal\u2014not the way night\u2019s supposed to
+    fall."
+  - " It\u2019s spreading, too, like a sickness."
+  - "My guess? Someone tampered with something they shouldn\u2019t have."
+  - "And now we\u2019re all stuck dealing with the fallout."
   killDialogues:
   - Wait what are you doing with that gu-
-  hearOutDialogues:
-  - Thank you for hearing me out.
+  hearOutDialogues: []
   hearOutDialogues1:
   - THIS NPC HAS SHORT LIMBS
   - Placeholder Dialgoue
@@ -57,31 +56,40 @@ MonoBehaviour:
   - Hello there.
   dialoguesNight5: []
   introductoryDialogue:
-  - "Good evening. I hope you don\u2019t mind me intruding. It\u2019s rare to find
-    someone wandering these dark paths, especially so late."
+  - Finally. Took you long enough to answer.
+  - "Look, I\u2019m not here to debate\u2014open the door."
+  - "The streets are crawling with those things, and I don\u2019t intend to be their
+    dinner."
+  - "I don\u2019t care what rules you live by in there, but if you\u2019ve got room,
+    you\u2019ll let me in. Now."
   option1Responses:
-  - My name is Molly.
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - Elias.
+  - Used to be a logistics coordinator for the district.
+  - "I made sure things ran smoothly\u2014before the world went to hell, that is."
+  - "Now? I\u2019m just trying to stay alive, same as you."
+  - Can I come in, or do you want to keep asking pointless questions?
   option1_1Responses:
-  - Name's Guest7
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue...
+  - Uma Heights, across the bridge.
+  - "Good luck getting there now\u2014between the Aswangs and that damned darkness,
+    it\u2019s a death trap."
+  - "I\u2019ve been walking for hours."
+  - "If you\u2019re planning a follow-up trip, don\u2019t."
   option2Responses:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue... 2
-  - Placeholder Dialgoue... 3
-  - Placeholder Dialgoue... 4
+  - Do I look like a threat?
+  - "I\u2019m unarmed, tired, and out here trying not to get torn apart by monsters."
+  - "If you\u2019re worried about me causing trouble, don\u2019t be."
+  - "I follow the rules, as long as they\u2019re fair."
+  - So, are you letting me in or not?
   option2_1Responses:
-  - Placeholder Dialgoue...
-  - Placeholder Dialgoue... 2
-  - Placeholder Dialgoue... 3
-  - Placeholder Dialgoue... 4
-  option1ButtonText: Placeholder Option
-  option1_1ButtonText: Placeholder Option
-  option2ButtonText: Placeholder Option
-  option2_1ButtonText: Placeholder Option
+  - Monsters. Everywhere.
+  - "And they\u2019re getting bolder."
+  - "They move in the shadows, and they\u2019re fast\u2014damned fast."
+  - "You stay out there long enough, you\u2019ll see for yourself."
+  - "Or, more likely, you won\u2019t make it back to tell anyone about it."
+  option1ButtonText: Who are you?
+  option1_1ButtonText: Where are you from?
+  option2ButtonText: "How do I know you\u2019re not a threat?"
+  option2_1ButtonText: What exactly have you seen out there?
   insideDialogueOption1: What do you know about the aswangs?
   insideDialogueOption2: Do you know about this "Eternal Eclipse?"
   insideDialogueOption3: I need to check on you.
