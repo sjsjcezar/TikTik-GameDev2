@@ -40,6 +40,7 @@ MonoBehaviour:
   hearOutDialogues4:
   - A smile?
   - "Ha! You wouldn\u2019t want to see it."
+  - I am already smiling for you!
   dialoguesNight1:
   - Hi there.
   dialoguesNight2:

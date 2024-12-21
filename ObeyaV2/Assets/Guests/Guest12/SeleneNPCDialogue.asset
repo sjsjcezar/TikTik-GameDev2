@@ -34,15 +34,24 @@ MonoBehaviour:
   hearOutDialogues1:
   - My arms?
   - "Oh, they\u2019re perfectly normal, don\u2019t you think?"
+  - Let me know if there is anything you want to check.
+  - I don't mind if its you.
   hearOutDialogues2:
   - Do my eyes unsettle you?
   - I hope not.
+  - Let me know if there is anything you want to check.
+  - I don't mind if its you.
   hearOutDialogues3:
   - My teeth?
   - You flatter me with your attention.
+  - Let me know if there is anything you want to check.
+  - I don't mind if its you.
   hearOutDialogues4:
-  - My smile?
   - Well, I do try to keep it charming.
+  - Do you find my smile charming?
+  - I hope you do.
+  - Let me know if there is anything you want to check.
+  - I don't mind if its you.
   dialoguesNight1:
   - Hi there.
   dialoguesNight2:
@@ -107,5 +116,5 @@ MonoBehaviour:
   - featureName: False Smile
     featureImage: {fileID: 0}
     featureDialogues:
-    - Does this look genuine enough?
+    - I put on a smile everyday my dear.
     hearOutDialogue: 

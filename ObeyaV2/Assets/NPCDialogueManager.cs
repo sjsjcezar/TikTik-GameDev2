@@ -58,6 +58,8 @@ public class NPCDialogueManager : MonoBehaviour
     private Sprite originalNPCSprite;
     public Image npcImage;
     public Image featureImage;
+    public Image featureImageEyes;
+    public Image featureImageTeeth;
 
     private EnergyManager energyManager;
     public GameObject cannotTalkPanel; // Panel to display the cannot sleep message
@@ -344,10 +346,22 @@ public class NPCDialogueManager : MonoBehaviour
         FeatureDialogue selectedFeature = currentNPCDialogue.featureDialoguesList.Find(f => f.featureName == featureName);
         if (selectedFeature != null && selectedFeature.featureImage != null)
         {
-            featureImage.sprite = selectedFeature.featureImage;
-            featureImage.gameObject.SetActive(true); // Show the feature image
+            if (featureName == "Dark Eyes")
+            {
+                featureImageEyes.sprite = selectedFeature.featureImage;
+                featureImageEyes.gameObject.SetActive(true); // Show the feature image
+            }
+            else if (featureName == "Sharp Teeth")
+            {
+                featureImageTeeth.sprite = selectedFeature.featureImage;
+                featureImageTeeth.gameObject.SetActive(true); // Show the feature image
+            }
+            else
+            {
+                featureImage.sprite = selectedFeature.featureImage;
+                featureImage.gameObject.SetActive(true); // Show the feature image
+            }
         }
-
         // Hide feature buttons
         HideFeatureButtons();
 
@@ -392,6 +406,14 @@ public class NPCDialogueManager : MonoBehaviour
         if (featureImage != null)
         {
             featureImage.gameObject.SetActive(false); // Hide the feature image
+        }
+        if (featureImageEyes != null)
+        {
+            featureImageEyes.gameObject.SetActive(false); // Hide the feature image
+        }
+        if (featureImageTeeth != null)
+        {
+            featureImageTeeth.gameObject.SetActive(false); // Hide the feature image
         }
     }
 
@@ -537,11 +559,20 @@ public class NPCDialogueManager : MonoBehaviour
         {
             featureImage.gameObject.SetActive(false);
         }
+        if (featureImageEyes != null)
+        {
+            featureImageEyes.gameObject.SetActive(false);
+        }
+        if (featureImageTeeth != null)
+        {
+            featureImageTeeth.gameObject.SetActive(false);
+        }
 
         buttonsPanel.SetActive(false);
         isInDialogue = false;
         ResetButtons();
     }
+
 
 
 
