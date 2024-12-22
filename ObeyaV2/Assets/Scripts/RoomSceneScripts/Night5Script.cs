@@ -1,31 +1,54 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+using UnityEngine.SceneManagement;
 using System.Collections;
-using TMPro; // Import TextMesh Pro namespace
 
 public class Night5Script : NightBaseScript
 {
-    public GameObject endingPanel; // Reference to the UI Panel for ending text
-    public TextMeshProUGUI endingText; // Reference to the TextMesh Pro component for displaying the ending
+    [Header("UI Elements")]
+    public TextMeshProUGUI endingText;
+    public GameObject endingPanel;
+    public TextMeshProUGUI scoreText;
+    public Button titleScreenButton;
+    public float textDisplayDuration = 3f;
+
+    [Header("Typewriter Effect")]
+    public float typingSpeed = 0.05f;  // Time between each character
+ //   public AudioClip typingSoundEffect;
+ //   private AudioSource audioSource;
     
     private EnergyManager energyManager;
     private RadioSystem radioSystem;
-    // Keep this protected
-    protected override void OnNightComplete()
+    private PlayerMovement playerMovement;
+    private int finalScore = 0;
+
+    void Start()
     {
-        
-        Debug.Log("Night 5 complete. Game is done.");
-        ShowEnding(); // Show the ending based on the accepted guests
+        energyManager = FindObjectOfType<EnergyManager>();
+        radioSystem = FindObjectOfType<RadioSystem>();
+        playerMovement = FindObjectOfType<PlayerMovement>();
+
+        // Initially disable score and button
+        if (scoreText != null) scoreText.gameObject.SetActive(false);
+        if (titleScreenButton != null)
+        {
+            titleScreenButton.gameObject.SetActive(false);
+            titleScreenButton.onClick.AddListener(() => SceneManager.LoadScene("TitleScreen"));
+        }
     }
 
     // Public method to trigger OnNightComplete
     public void TriggerNightComplete()
     {
-        OnNightComplete(); // Calls the protected method
+        OnNightComplete();
     }
 
-    private void ShowEnding()
+    protected override void OnNightComplete()
     {
+        energyManager.DisableEnergy();
+        radioSystem.DisableJournal();
+
         NightManager nightManager = FindObjectOfType<NightManager>();
         energyManager = FindObjectOfType<EnergyManager>();
         radioSystem = FindObjectOfType<RadioSystem>();
@@ -46,36 +69,62 @@ public class Night5Script : NightBaseScript
             }
         }
 
-        // Log how many humans and aswangs were accepted
-        Debug.Log($"Humans Accepted: {humansAccepted}");
-        Debug.Log($"Aswangs Accepted: {aswangsAccepted}");
-        // Check conditions for the ending
+        // Calculate final score
+        finalScore = (humansAccepted * 25) - (aswangsAccepted * 15);
+
         if (humansAccepted >= 6 && aswangsAccepted == 0)
         {
-            StartCoroutine(DisplayEnding("Good Ending: Good job ggs well played xD"));
+            StartCoroutine(DisplayEnding("Best Ending: GGS! You've successfully protected your house! You have a keen eye in identifying and accepting only humans."));
         }
-        else if (humansAccepted >= 3 && aswangsAccepted == 0)
+        else if (humansAccepted >= 4 && aswangsAccepted == 0 && playerMovement.killCount <= 4)
         {
-            StartCoroutine(DisplayEnding("Basic Ending: You survived, but the future is uncertain as the Aswang still pose a threat to society."));
+            StartCoroutine(DisplayEnding("Good Ending: You've done well in protecting your house, though some humans were left for dead."));
+        }
+        else if (humansAccepted >= 2 && aswangsAccepted == 0 && playerMovement.killCount <= 5)
+        {
+            StartCoroutine(DisplayEnding("Basic Ending: You survived, but many were left for dead."));
+        }
+        else if (playerMovement.killCount >= 6 && aswangsAccepted >= 0 && humansAccepted >= 0)
+        {
+            StartCoroutine(DisplayEnding("Violent Ending: Your paranoia led to unnecessary bloodshed. The shadows of your actions continue to haunt you, and in the end, you decided to pull the trigger."));
+        }
+        else if (playerMovement.killCount >= 12 && aswangsAccepted >= 0 && humansAccepted >= 0)
+        {
+            StartCoroutine(DisplayEnding("Bloodlust Ending:Your bloodlust has led you to murder. You've killed all the guests, leaving you with no bullets to spare. The aswangs have overrun your home."));
+        }
+        else if (aswangsAccepted >= 1 && humansAccepted >= 0)
+        {
+            StartCoroutine(DisplayEnding("Bad Ending: You've unknowingly aided the aswangs. They have overrun your home."));
         }
         else
         {
-            StartCoroutine(DisplayEnding("Bad Ending: You have failed to protect the house from the Aswangs. They have overrun your home."));
+            StartCoroutine(DisplayEnding("Game Over: Your indecision has led to chaos."));
         }
     }
 
-    private IEnumerator DisplayEnding(string endingMessage)
+    private IEnumerator DisplayEnding(string message)
     {
-        endingPanel.SetActive(true); // Activate the ending UI panel
+        endingPanel.SetActive(true);
+        endingText.text = message;
         endingText.text = ""; // Clear the text first
 
         // Typewriter effect
-        foreach (char letter in endingMessage.ToCharArray())
+        foreach (char letter in message.ToCharArray())
         {
-            endingText.text += letter; // Add one letter at a time
-            yield return new WaitForSeconds(0.05f); // Wait for a short duration before adding the next letter
+            endingText.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
+        }
+        yield return new WaitForSeconds(textDisplayDuration);
+
+        if (scoreText != null)
+        {
+            scoreText.gameObject.SetActive(true);
+            scoreText.text = $"Score: {finalScore}";
         }
 
-        Debug.Log(endingMessage); // Log the ending message for debugging
+        if (titleScreenButton != null)
+        {
+            titleScreenButton.gameObject.SetActive(true);
+        }
     }
 }

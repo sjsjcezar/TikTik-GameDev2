@@ -61,6 +61,8 @@ public class NPCDialogueManager : MonoBehaviour
     public Image featureImageEyes;
     public Image featureImageTeeth;
 
+    public PlayerMovement playerMovement;
+
     private EnergyManager energyManager;
     public GameObject cannotTalkPanel; // Panel to display the cannot sleep message
     public TextMeshProUGUI cannotTalkText; // TextMeshProUGUI component for displaying the cannot sleep message
@@ -428,6 +430,8 @@ public class NPCDialogueManager : MonoBehaviour
 
     public void KillNPC()
     {
+        playerMovement.killCount = (playerMovement.killCount + 1);
+        Debug.Log("Kill Count: " + playerMovement.killCount);
         currentNPCDialogue.isDead = true;
         activeResponseType = "Kill";
         killResponseIndex = 0;
@@ -458,7 +462,6 @@ public class NPCDialogueManager : MonoBehaviour
                 }
 
                 npcComponent.SwapToDeadSprite();
-
                 // Destroy(npcObject);
             }
             else
@@ -470,7 +473,6 @@ public class NPCDialogueManager : MonoBehaviour
         {
             Debug.LogWarning($"Could not find GameObject for NPC: {currentNPCDialogue.npcName}");
         }
-
         EndDialogue();
     }
 
