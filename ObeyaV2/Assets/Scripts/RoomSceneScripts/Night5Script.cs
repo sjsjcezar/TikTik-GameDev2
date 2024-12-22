@@ -90,8 +90,8 @@ public class Night5Script : NightBaseScript
         }
         else if (playerMovement.killCount >= 12 && aswangsAccepted >= 0 && humansAccepted >= 0)
         {
-            StartCoroutine(DisplayEnding("Bloodlust Ending:Your bloodlust has led you to murder. You've killed all the guests, leaving you with no bullets to spare. The aswangs have overrun your home."));
-        }
+            StartCoroutine(DisplayEnding("Bloodlust Ending: Your bloodlust has led you to murder. You've killed all the guests, leaving you with no bullets to spare. The aswangs have overrun your home."));
+        } 
         else if (aswangsAccepted >= 1 && humansAccepted >= 0)
         {
             StartCoroutine(DisplayEnding("Bad Ending: You've unknowingly aided the aswangs. They have overrun your home."));
