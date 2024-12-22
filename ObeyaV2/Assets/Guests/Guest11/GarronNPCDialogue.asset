@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8483b510f20d6b4eb59ccbe828005a9, type: 3}
   m_Name: GarronNPCDialogue
   m_EditorClassIdentifier: 
-  npcName: Guest11
+  npcName: Garron
   npcSprite: {fileID: 21300000, guid: f7f3ee1a243f9fa458a8d1bbe1ec9b90, type: 3}
   killedNpcSprite: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
   aswangResponses:
@@ -50,6 +50,9 @@ MonoBehaviour:
   dialoguesNight4:
   - "You\u2019re a brave one."
   - Letting someone like me in.
+  - But fuck.
+  - I almost died there.
+  - We will survive this fucking nightmare.
   dialoguesNight5: []
   introductoryDialogue:
   - Hey! Open up and let me in!
@@ -57,7 +60,7 @@ MonoBehaviour:
   - "It\u2019s pitch black, and there\u2019s monsters everywhere!"
   - ' Let me in before I tear this door down myself!'
   option1Responses:
-  - " I\u2019m Garron, and that\u2019s all you need to know."
+  - "I\u2019m Garron, and that\u2019s all you need to know."
   - Now stop wasting my time and let me in!
   option1_1Responses:
   - "Where I\u2019m from?"
@@ -67,10 +70,13 @@ MonoBehaviour:
   - Because I said so!
   - You wanna survive the night or not?
   - You need me more than I need you, so quit stalling!
+  - Hurry UP!
+  - "I sure as hell don\u2019t want to get fucking eaten today!"
   option2_1Responses:
   - Do I look alright to you?
   - " I\u2019m standing out here with death on my heels!"
   - Open the damn door and let me in!
+  - "I sure as hell don\u2019t want to get fucking eaten today!"
   option1ButtonText: Who are you?
   option1_1ButtonText: Wher are you from?
   option2ButtonText: "What makes you think I\u2019ll let you in?"
@@ -93,10 +99,10 @@ MonoBehaviour:
   - featureName: Sharp Teeth
     featureImage: {fileID: 21300000, guid: 115c364765c023347928f6d2a0330574, type: 3}
     featureDialogues:
-    - Go ahed. Just don't flinch.
+    - Go ahead. Just don't flinch.
     hearOutDialogue: 
   - featureName: False Smile
     featureImage: {fileID: 0}
     featureDialogues:
-    - It's not pretty, though.
+    - Haha! I always have an awkward smile.
     hearOutDialogue: 

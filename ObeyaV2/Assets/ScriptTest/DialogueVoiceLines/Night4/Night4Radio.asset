@@ -14,38 +14,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueEntries:
   - lines: The elders advise staying on the path.
-    voiceLine: {fileID: 0}
+    voiceLine: {fileID: 8300000, guid: ae1ffb03ec6d9754ab6178de39d5f18e, type: 3}
     highlights: []
   - lines: Legends say the aswang stalks its prey, hiding behind a false smile.
-    voiceLine: {fileID: 0}
-    highlights: []
+    voiceLine: {fileID: 8300000, guid: abc637c80587e1c4486358a760ee7a60, type: 3}
+    highlights:
+    - phrase: false smile
+      highlightColor: {r: 0.5754717, g: 0, b: 0, a: 0}
   - lines: Listen closely to the sounds in the dark; don't ignore the unusual noises.
-    voiceLine: {fileID: 0}
-    highlights: []
+    voiceLine: {fileID: 8300000, guid: a1f658c5951c06040b39d2cd441d99b9, type: 3}
+    highlights:
+    - phrase: unusual noises
+      highlightColor: {r: 0.12348701, g: 0.7075472, b: 0.1676529, a: 0}
   - lines: Sometimes, the souls of the lost return to warn us.
-    voiceLine: {fileID: 0}
+    voiceLine: {fileID: 8300000, guid: a5c31bc90e648014db02a70db4db51b7, type: 3}
     highlights: []
   - lines: Keep your eyes peeled... there are watchers in the dark...
-    voiceLine: {fileID: 0}
+    voiceLine: {fileID: 8300000, guid: 34f50b3c1fa7e9745a60589d0bbaaabc, type: 3}
     highlights: []
   - lines: "So heads up and look out for each other\u2014"
-    voiceLine: {fileID: 0}
+    voiceLine: {fileID: 8300000, guid: 1a79b8f02b79c404e981f8a4ba3c8c9e, type: 3}
     highlights: []
-  - lines: ....
+  - lines: '*growl*'
+    voiceLine: {fileID: 8300000, guid: a2ce6b419ab428346baa2e4629b8685b, type: 3}
+    highlights:
+    - phrase: '*growl*'
+      highlightColor: {r: 0.9056604, g: 0, b: 0, a: 0}
+  - lines: ...
     voiceLine: {fileID: 0}
     highlights: []
   - lines: It might be too late for me.
-    voiceLine: {fileID: 0}
+    voiceLine: {fileID: 8300000, guid: 05db5d6636ab6f043a1541cb49a2d931, type: 3}
     highlights: []
   - lines: ...
     voiceLine: {fileID: 0}
     highlights: []
   - lines: God save us all.
-    voiceLine: {fileID: 0}
+    voiceLine: {fileID: 8300000, guid: 8bf222fca91830749a4fa2c0a64e61f2, type: 3}
     highlights: []
   - lines: '*gunshot*'
-    voiceLine: {fileID: 0}
-    highlights: []
+    voiceLine: {fileID: 8300000, guid: 75415b57623b6fe4eaa06cfb980665c4, type: 3}
+    highlights:
+    - phrase: '*gunshot*'
+      highlightColor: {r: 0.8679245, g: 0, b: 0, a: 0}
   - lines: ...
     voiceLine: {fileID: 0}
     highlights: []

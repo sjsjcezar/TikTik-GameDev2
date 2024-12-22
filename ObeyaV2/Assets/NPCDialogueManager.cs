@@ -428,6 +428,7 @@ public class NPCDialogueManager : MonoBehaviour
 
     public void KillNPC()
     {
+        currentNPCDialogue.isDead = true;
         activeResponseType = "Kill";
         killResponseIndex = 0;
         buttonsPanel.SetActive(false);
@@ -438,7 +439,6 @@ public class NPCDialogueManager : MonoBehaviour
     private IEnumerator ShowKillDialogueAndEliminate()
     {
         DisplaySequentialResponse();
-        yield return new WaitForSeconds(0.5f);
 
         GameObject npcObject = FindNPCGameObject(currentNPCDialogue);
         if (npcObject != null)
@@ -446,6 +446,8 @@ public class NPCDialogueManager : MonoBehaviour
             NPC npcComponent = npcObject.GetComponent<NPC>();
             if (npcComponent != null)
             {
+                npcComponent.PlayGunCockSound();
+                yield return new WaitForSeconds(2.0f);
                 // Remove the NPC from the night manager's active list
                 nightManager.RemoveGuestFromList(npcComponent);
 

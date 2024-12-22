@@ -50,6 +50,9 @@ public class NPCDialogue : ScriptableObject
     public string insideDialogueOption3;
     public string insideDialogueOption4;
 
+    [System.NonSerialized]
+    public bool isDead = false;
+
 
     public List<FeatureDialogue> featureDialoguesList; // List of dialogues for each feature
 
@@ -67,5 +70,17 @@ public class NPCDialogue : ScriptableObject
     {
         FeatureDialogue featureDialogue = featureDialoguesList.Find(feature => feature.featureName == featureName);
         return featureDialogue != null ? featureDialogue.hearOutDialogue : "No reason available for this feature.";
+    }
+
+    public bool IsDead 
+    { 
+        get { return isDead; }
+        set { isDead = value; }
+    }
+
+    void OnEnable()
+    {
+        // Reset isDead when the ScriptableObject is loaded
+        isDead = false;
     }
 }

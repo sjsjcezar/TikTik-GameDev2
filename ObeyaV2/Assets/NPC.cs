@@ -5,56 +5,89 @@ using UnityEngine.Rendering;
 
 public class NPC : MonoBehaviour
 {
-    public NPCDialogue npcDialogue; // Reference to the NPCDialogue ScriptableObject
-
-    public SpriteRenderer spriteRenderer; // Reference to the sprite renderer to change sprite
+    public NPCDialogue npcDialogue;
+    public SpriteRenderer spriteRenderer;
     public Sprite deadBodySprite;
-
-    private Animator animator; // Reference to the Animator component
-
+    private Animator animator;
     public string uniqueID;
     private bool isDead = false;
     public GameObject killPanel;
-    private Image panelImage;
-    public float fadeDuration = 3f;
+    public float fadeOutDuration = 3f;
+    
+    [Header("Kill Sequence")]
+    public AudioClip gunCockSound;
+    public AudioClip gunShotSound;
+    public float blackScreenDuration = 3f;
+    private AudioSource audioSource;
 
     private void Awake()
     {
-        // Get the Animator component when the NPC is instantiated
         animator = GetComponent<Animator>();
+        audioSource = gameObject.AddComponent<AudioSource>();
     }
 
-    public void RespondToCheck(string response)
+    public void PlayGunCockSound()
     {
-        // Display the response in the game's dialogue UI
-        Debug.Log(response);
+        if (gunCockSound != null)
+        {
+            audioSource.PlayOneShot(gunCockSound);
+        }
     }
 
     public void SwapToDeadSprite()
     {
-        Transition();
+        StartCoroutine(KillSequenceCoroutine());
+    }
+
+    private IEnumerator KillSequenceCoroutine()
+    {
+        // Instantly show black panel
+        killPanel.SetActive(true);
+        CanvasGroup canvasGroup = killPanel.GetComponent<CanvasGroup>();
+        if (canvasGroup == null)
+        {
+            canvasGroup = killPanel.AddComponent<CanvasGroup>();
+        }
+        canvasGroup.alpha = 1f;
+
+        // Play gunshot sound immediately with black screen
+        if (gunShotSound != null)
+        {
+            audioSource.PlayOneShot(gunShotSound);
+        }
+
+        // During the black screen, swap the sprite
         if (animator != null)
         {
             animator.enabled = false;
-            Debug.Log("Animator disabled for NPC: " + gameObject.name);
         }
 
         if (gameObject.CompareTag("Human"))
         {
             spriteRenderer.sprite = deadBodySprite;
-            Debug.Log("Swapped to garbage bag sprite for " + gameObject.name);
         }
         else if (gameObject.CompareTag("Aswang") && deadBodySprite != null)
         {
             spriteRenderer.sprite = deadBodySprite;
-            Debug.Log("Swapped to dead sprite for " + gameObject.name);
         }
-        else
-        {
-            Debug.LogError("Dead body sprite is not assigned for " + gameObject.name);
-        }
-         
+        
         isDead = true;
+
+        // Keep black screen for specified duration
+        yield return new WaitForSeconds(blackScreenDuration);
+
+        // Start fade out
+        float elapsedTime = 0f;
+        while (elapsedTime < fadeOutDuration)
+        {
+            elapsedTime += Time.deltaTime;
+            canvasGroup.alpha = Mathf.Lerp(1f, 0f, elapsedTime / fadeOutDuration);
+            yield return null;
+        }
+
+        // Ensure panel is fully transparent and disabled
+        canvasGroup.alpha = 0f;
+        killPanel.SetActive(false);
     }
 
     public bool IsDead()
@@ -62,42 +95,8 @@ public class NPC : MonoBehaviour
         return isDead;
     }
 
-
-    // Check if the NPC has a specific feature based on the ScriptableObject
     public bool HasFeature(int featureIndex)
     {
-        // Return true if the feature index is valid, otherwise false
         return featureIndex >= 0 && featureIndex < npcDialogue.featureDialoguesList.Count;
     }
-
-    void Transition()
-    {
-        killPanel.SetActive(true);
-        StartCoroutine(FadePanel(1f, 0f));
-        
-    }
-
-    private IEnumerator FadePanel(float startAlpha, float endAlpha)
-    {
-        float elapsedTime = 0f;
-        CanvasGroup canvasGroup = killPanel.GetComponent<CanvasGroup>();
-
-        // Ensure the panel has a CanvasGroup component
-        if (canvasGroup == null)
-        {
-            canvasGroup = killPanel.AddComponent<CanvasGroup>();
-        }
-
-        canvasGroup.alpha = startAlpha; // Set initial alpha
-        while (elapsedTime < fadeDuration)
-        {
-            elapsedTime += Time.deltaTime;
-            canvasGroup.alpha = Mathf.Lerp(startAlpha, endAlpha, elapsedTime / fadeDuration);
-            yield return null; // Wait for the next frame
-        }
-
-        canvasGroup.alpha = endAlpha; // Ensure final alpha is set
-        killPanel.SetActive(false);
-    }
 }
-

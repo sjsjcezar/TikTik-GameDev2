@@ -14,21 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueEntries:
   - lines: As the nights roll on, the aswang sightings keep coming.
-    voiceLine: {fileID: 0}
+    voiceLine: {fileID: 8300000, guid: 82f7bfd9d65f1b6478c8889ba03ed045, type: 3}
     highlights: []
   - lines: People are vanishing without a trace, swallowed by the dark.
-    voiceLine: {fileID: 0}
+    voiceLine: {fileID: 8300000, guid: a37ccbb3655e02a4286d82350c7c7535, type: 3}
     highlights: []
   - lines: Rumors say they disappear... into the shadows.
-    voiceLine: {fileID: 0}
+    voiceLine: {fileID: 8300000, guid: bd9aa1cf45dff34468e0b0e210ff2fed, type: 3}
     highlights: []
   - lines: "Stay alert\u2014don't trust strangers. Watch their eyes closely."
-    voiceLine: {fileID: 0}
+    voiceLine: {fileID: 8300000, guid: 1f3181d9622e1024f990ad13f071793a, type: 3}
     highlights:
     - phrase: eyes
       highlightColor: {r: 0.06051977, g: 0.754717, b: 0.11375044, a: 0}
   - lines: Remember, the eyes of an aswang are pure darkness, no soul behind them.
-    voiceLine: {fileID: 0}
+    voiceLine: {fileID: 8300000, guid: ac7db1cb6d2d208438a6a71c108c77f2, type: 3}
     highlights:
     - phrase: eyes
       highlightColor: {r: 0.06051977, g: 0.754717, b: 0.11375044, a: 0}

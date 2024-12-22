@@ -14,17 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueEntries:
   - lines: We've gathered intel from local experts.
-    voiceLine: {fileID: 0}
+    voiceLine: {fileID: 8300000, guid: 8a32f61f09729e147aeba4440aa61876, type: 3}
     highlights: []
   - lines: Aswangs are said to wield dark magic; their true forms are elusive.
-    voiceLine: {fileID: 0}
+    voiceLine: {fileID: 8300000, guid: 73dac9b35cb37fa4c8a8e98fdf3b9693, type: 3}
     highlights: []
-  - lines: "You\u2019ll spot an aswang by their unnaturally sharp teeth."
-    voiceLine: {fileID: 0}
-    highlights: []
+  - lines: "You\u2019ll spot an aswang by their teeth."
+    voiceLine: {fileID: 8300000, guid: caa033f1495ba4544b327000202fb6e5, type: 3}
+    highlights:
+    - phrase: teeth
+      highlightColor: {r: 0.8113208, g: 0.17802802, b: 0, a: 0}
   - lines: Be wary of celebrations; they might draw their attention.
-    voiceLine: {fileID: 0}
+    voiceLine: {fileID: 8300000, guid: 80dc5a5bdc024a148a739320c8743dba, type: 3}
     highlights: []
   - lines: If you see someone wandering alone in the dark, tread carefully.
-    voiceLine: {fileID: 0}
+    voiceLine: {fileID: 8300000, guid: df18aaad99e375e449233589d4dcf43e, type: 3}
     highlights: []

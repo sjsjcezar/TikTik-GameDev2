@@ -12,16 +12,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8483b510f20d6b4eb59ccbe828005a9, type: 3}
   m_Name: SeleneNPCDialogue
   m_EditorClassIdentifier: 
-  npcName: Guest12
+  npcName: Selene
   npcSprite: {fileID: 21300000, guid: 5e1940fcc5edfc94fb9bacbfc748822c, type: 3}
   killedNpcSprite: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
   aswangResponses:
-  - "Such terrible creatures... but fascinating, don\u2019t you think?"
-  - So misunderstood.
+  - "I\u2019ve heard so many stories of the aswangs, haven\u2019t you? People love
+    a good tale about something they can\u2019t understand."
+  - One popular theory among the folks is it's all just big misunderstanding.
+  - Crazy, I know. The point was...
+  - "...It\u2019s so easy to paint them as monsters, but what if they\u2019re just...
+    misunderstood souls, doing what they must to survive?"
   - Some say they only hunt those who truly deserve it.
+  - "Now, don\u2019t you think that\u2019s an interesting thought?"
+  - "The idea that only certain people\u2014those with darkness in their hearts\u2014become
+    prey..."
+  - "Makes you wonder who gets to decide who\u2019s worthy of such a fate."
   - "Do you think that\u2019s true?"
-  - "But enough about them. Let\u2019s talk about something more pleasant... like
-    us."
+  - That some are more deserving of being hunted than others?
+  - "It\u2019s just a theory, of course. But who\u2019s to say?"
+  - "The question of morality... it\u2019s so... flexible, don\u2019t you think?"
+  - "What\u2019s right for one person is so different for another."
+  - What one sees as justice, someone else might call cruelty.
+  - "It\u2019s all a matter of perspective... and need, perhaps?"
+  - This is quite thought provoking, darling.
+  - But of course, we must stay away from the aswangs, after all.
+  - "Such terrible creatures, aren\u2019t they?"
   eclipseResponses:
   - Oh, that sounds so ominous.
   - But you know what they say.
@@ -49,7 +64,6 @@ MonoBehaviour:
   hearOutDialogues4:
   - Well, I do try to keep it charming.
   - Do you find my smile charming?
-  - I hope you do.
   - Let me know if there is anything you want to check.
   - I don't mind if its you.
   dialoguesNight1:
@@ -72,26 +86,43 @@ MonoBehaviour:
     harmless."
   - "Though, letting me in might be the most thrilling risk you\u2019ve ever taken."
   - "And really, wouldn\u2019t you rather know me inside where it\u2019s safe?"
+  - Would you rather I tell you my life story... or let me escape the monsters out
+    there?
+  - "Don\u2019t make me beg."
   option1_1Responses:
   - "A place far from here, but that\u2019s not important now, is it?"
   - "What matters is that I\u2019m here, and you\u2019re my savior."
   - Would you rather I tell you my life story... or let me escape the monsters out
     there?
-  - "Don\u2019t make me beg, though I can if you like."
+  - "Don\u2019t make me beg."
   option2Responses:
-  - Oh, come on now. Do I look dangerous to you?
-  - "I\u2019m just a helpless woman looking for a strong, brave protector."
-  - "If I wanted to hurt you, wouldn\u2019t I have done it already?"
-  - "But maybe... I should be asking you if you\u2019re dangerous."
+  - "Oh, darling... you don\u2019t have to trust me."
+  - "Trust is such a fragile thing, isn\u2019t it?"
+  - Easily broken... or misplaced.
+  - But I suppose, if you need a reason...
+  - "I\u2019m standing here, outside your door."
+  - Not rushing in, not forcing myself in.
+  - "I\u2019m giving you the choice."
+  - Does that not show you a little bit of trust in return?
+  - "But then again, maybe I don\u2019t need your trust."
+  - "Perhaps it\u2019s you who should be asking yourself, why wouldn\u2019t you trust
+    someone who offers you a chance at... something more?"
+  - "And that\u2019s all that truly matters."
   option2_1Responses:
   - Danger?
   - I suppose I do handle myself well under pressure.
-  - "But trust me, I\u2019d feel so much safer with you."
+  - "It\u2019s all about knowing how to play your cards, isn\u2019t it?"
+  - "But trust me, darling, I\u2019d feel so much safer with you."
+  - "After all, strength is always more... reassuring when shared, wouldn\u2019t
+    you agree?"
+  - Sometimes, keeping calm is the best survival skill.
+  - "People panic, and that\u2019s when they make mistakes."
+  - "People panic, and that\u2019s when they make mistakes."
   - "Sometimes, keeping calm is the best survival skill. Don\u2019t you agree?"
   - "Or maybe I just know I\u2019m exactly where I need to be."
   option1ButtonText: Who are you?
   option1_1ButtonText: Where are you from?
-  option2ButtonText: How do I know you're not dangerous?
+  option2ButtonText: Give me one good reason to trust you.
   option2_1ButtonText: You seem oddly calm for someone in danger.
   insideDialogueOption1: What do you know about the aswangs?
   insideDialogueOption2: Do you know about this "Eternal Eclipse?"

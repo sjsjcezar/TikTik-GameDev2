@@ -31,6 +31,8 @@ public class RadioSystem : MonoBehaviour
     public bool hasLearnedFeature3 = false;
     public bool hasLearnedFeature4 = false;
 
+    public event System.Action OnFeatureLearned;
+
     private AudioSource audioSource;
 
     private void Start()
@@ -154,6 +156,7 @@ public class RadioSystem : MonoBehaviour
                 }
                 hasLearnedFeature1 = true; // Learned elongated limbs on Night 1
                 Debug.Log("Learned feature 1.");
+                OnFeatureLearned?.Invoke();
                 break;
             case 1:
                 if (hasLearnedFeature2 == false)
@@ -162,6 +165,7 @@ public class RadioSystem : MonoBehaviour
                 }
                 hasLearnedFeature2 = true; // Learned about eyes on Night 2
                 Debug.Log("Learned feature 2.");
+                OnFeatureLearned?.Invoke();
                 break;
             case 2:
                 if (hasLearnedFeature3 == false)
@@ -170,6 +174,7 @@ public class RadioSystem : MonoBehaviour
                 }
                 hasLearnedFeature3 = true; // Learned about sharp teeth on Night 3
                 Debug.Log("Learned feature 3.");
+                OnFeatureLearned?.Invoke();
                 break;
             case 3:
                 if (hasLearnedFeature4 == false)
@@ -178,6 +183,7 @@ public class RadioSystem : MonoBehaviour
                 }
                 hasLearnedFeature4 = true; // Learned about false smiles on Night 4
                 Debug.Log("Learned feature 4.");
+                OnFeatureLearned?.Invoke();
                 break;
             default:
                 break;

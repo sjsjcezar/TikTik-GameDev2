@@ -12,17 +12,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8483b510f20d6b4eb59ccbe828005a9, type: 3}
   m_Name: MollyNPCDialogue
   m_EditorClassIdentifier: 
-  npcName: Guest4
+  npcName: Molly
   npcSprite: {fileID: 21300000, guid: 7278667fedb36074da7fef6eb3b2bfb5, type: 3}
   killedNpcSprite: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
   aswangResponses:
   - "I\u2019ve... seen them."
   - "They\u2019re horrible. They don\u2019t just kill you; they... change you."
-  - "I don\u2019t want to talk about it anymore."
+  - "I\u2019ve heard stories\u2014stories that these monsters are just... hosts,
+    you know?"
+  - Like, former humans taken over by something awful.
+  - "But I\u2014I\u2019m not sure if that\u2019s true."
+  - "It\u2019s just something people say to watch out for."
+  - "They mimic being human so well, it\u2019s terrifying."
+  - "I guess you can sometimes tell by how they talk\u2014something about their speech
+    feels... off."
+  - "But then again, maybe that\u2019s just how they are, or maybe... maybe it\u2019s
+    an aswang."
+  - "I don\u2019t... I don\u2019t want to talk about this anymore."
   eclipseResponses:
   - I heard someone call it that before... before the monsters came.
   - They said it was the end of everything.
-  - "I don\u2019t know if they were right, but... it feels like they were."
+  - "I heard stories\u2014that the monsters emerged from the darkness."
+  - I thought it was just talk, just another superstition.
+  - ' I was supposed to start a new life in the city...'
+  - But then... the monsters came. They took over. They killed my parents...
+  - After running, after hiding, I saw them again.
+  - My parents...
+  - "But... they were acting strange, like they weren\u2019t really themselves anymore."
+  - Fuck.. it felt like a zombie moment.
+  - "I don\u2019t know if I\u2019m just paranoid or if I really saw something\u2014something
+    wrong."
+  - Do these aswangs have some kind of dark magic?
+  - an they twist people, turn them into... whatever it is they are?
+  - "I don\u2019t know. But I couldn\u2019t save them. I couldn\u2019t do anything."
+  - "If only I had known\u2014if someone had told me the Eclipse was real, that it
+    was more than a story\u2014maybe... maybe my parents would still be alive."
+  - "I don\u2019t know if that person was right about the end of everything. But...
+    it feels like they were."
   killDialogues:
   - No, no, no! I... I just wanted to survi-
   hearOutDialogues: []
@@ -57,7 +83,8 @@ MonoBehaviour:
   - "I don\u2019t want to die. Please let me in."
   option1Responses:
   - My name is Molly. I-I'm just trying to survive.
-  - "I was supposed to start a new life, but... everything\u2019s gone now."
+  - "I was supposed to start a new life in the city, but... everything\u2019s gone
+    now."
   option1_1Responses:
   - "I\u2019m from the next town over, but it\u2019s... it\u2019s not there anymore."
   - "I think I\u2019m the only one who got out."
@@ -67,7 +94,7 @@ MonoBehaviour:
   option2_1Responses:
   - "I... I don\u2019t know how to prove it to you."
   - " I don\u2019t even know if I can trust myself anymore after what I\u2019ve seen."
-  - But I swear, I just need a safe place to hide.
+  - I-I just... need a safe place to hide.
   option1ButtonText: Who are you?
   option1_1ButtonText: Where are you from?
   option2ButtonText: Are you hurt?

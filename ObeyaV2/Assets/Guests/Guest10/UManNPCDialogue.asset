@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8483b510f20d6b4eb59ccbe828005a9, type: 3}
   m_Name: UManNPCDialogue
   m_EditorClassIdentifier: 
-  npcName: Guest10
+  npcName: ???
   npcSprite: {fileID: 21300000, guid: fbd489155069ea44c84999aa743cf14d, type: 3}
   killedNpcSprite: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
   aswangResponses:
@@ -21,18 +21,20 @@ MonoBehaviour:
   - Wait 'til one of those things sinks its teeth in.
   - "They\u2019re like a bad dream that won\u2019t end\u2014too fast, too silent."
   - "Lucky for you, I\u2019m not in the business of dying."
-  - ' I know how to avoid ''em, but you?'
+  - I know how to avoid 'em, but you?
   - "Well, let\u2019s just say you\u2019ll need more than prayers."
+  - Trust your guts, kid.
+  - "Word of advice, if someone seems too fucking suspicious, don\u2019t let them
+    in."
+  - "Those fucking monsters always talk in a way that\u2019ll make your skin crawl."
   eclipseResponses:
-  - The Eternal Darkness, huh? Big talk, little buddy.
-  - "It\u2019s old news, a real headache for anyone who\u2019s been around as long
-    as I have."
-  - "Not something you want to mess with. If you don\u2019t know already, maybe you\u2019re
-    better off not knowing."
-  - "But I do know how to survive it. Stick with me, and maybe I\u2019ll teach you
-    a few tricks."
+  - The Eternal Darkness, huh? Big talk, kid.
+  - This damn eclipse just fucking happened out of nowhere.
+  - Nobody knows what the hell is going on.
+  - All I know is, when that damn eclipse happened, these fucking monsters showed
+    up.
   killDialogues:
-  - You don't know what you're doin-
+  - PUT THAT GUN DOWN, IM NOT THEM BO-
   hearOutDialogues: []
   hearOutDialogues1:
   - My arms are fine.
@@ -44,8 +46,8 @@ MonoBehaviour:
   hearOutDialogues3:
   - Teeth are for survival, not for show.
   hearOutDialogues4:
-  - A smile?!
-  - Hmph! Even in this darn wasteland, I am still smiling kid.
+  - Hmph! Even in this damned wasteland, I am still smiling, kid.
+  - Word of advice, don't just fucking tell someone to smile.
   dialoguesNight1:
   - Hi there.
   dialoguesNight2:
@@ -53,8 +55,9 @@ MonoBehaviour:
   dialoguesNight3:
   - Good evening.
   dialoguesNight4:
-  - Your kindness is noted.
-  - I will not forget it.
+  - Argh... This place is cursed.
+  - I can feel a sinister aura here.
+  - Have you been letting aswangs in?!
   dialoguesNight5: []
   introductoryDialogue:
   - Oi, hey! You in there?
@@ -69,14 +72,11 @@ MonoBehaviour:
   - You should be grateful, really.
   - "Name\u2019s no concern of yours."
   - Call me whatever you like, long as the door opens.
-  - "I\u2019ve got things to do, you know."
   option1_1Responses:
   - Where am I from?
   - "That\u2019s cute. I\u2019ve been everywhere, buddy."
-  - "Let\u2019s just say... I know a thing or two about places that go bump in the
-    night."
-  - "Let me in, and maybe I\u2019ll tell you some stories. You\u2019ll be dying to
-    know."
+  - I have been hopping place to place and none of the settlements survived.
+  - They don't trust my judgment on who to let in and who to kill.
   option2Responses:
   - "What\u2019s my deal?"
   - "The real question is, what\u2019s your deal?"
@@ -84,12 +84,15 @@ MonoBehaviour:
     to rot?
   - Ha! I can smell your type from a mile away.
   - "You\u2019ll need me more than I need you, trust me."
+  - Having more of us will give us a higher chance of surviving against the THEM.
   option2_1Responses:
   - Dangerous?
   - Oh, buddy, you have no idea.
   - "But let\u2019s not pretend you\u2019re the only one out here, hm?"
   - "You think you\u2019re in danger? I\u2019ve seen things you can\u2019t even imagine."
   - "Now, let me in and I\u2019ll keep those monsters at bay."
+  - "You\u2019ll need me more than I need you, trust me."
+  - Having more of us will give us a higher chance of surviving against the THEM.
   option1ButtonText: Who are you?
   option1_1ButtonText: Where are you from?
   option2ButtonText: What's your deal?
@@ -107,7 +110,7 @@ MonoBehaviour:
   - featureName: Dark Eyes
     featureImage: {fileID: 21300000, guid: 165593252b9f17047ac73c816acf3c55, type: 3}
     featureDialogues:
-    - What do you see in them?
+    - Just don't fucking spit on them.
     hearOutDialogue: 
   - featureName: Sharp Teeth
     featureImage: {fileID: 21300000, guid: 893b7110136824c45bae8dae9d6b2c97, type: 3}
@@ -117,5 +120,5 @@ MonoBehaviour:
   - featureName: False Smile
     featureImage: {fileID: 0}
     featureDialogues:
-    - This is what I've got. Deal with it.
+    - You're asking me to smile?
     hearOutDialogue: 
