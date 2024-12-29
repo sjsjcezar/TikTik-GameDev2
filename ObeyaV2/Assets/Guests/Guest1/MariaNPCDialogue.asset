@@ -52,7 +52,7 @@ MonoBehaviour:
   - "I\u2019ve heard the stories\u2014about aswangs having sharp teeth."
   - But I am not one of them.
   hearOutDialogues4:
-  - Sorry, I just can't smile.
+  - Sorry, I just can't smile properly...
   - ...
   - If I fake a smile now, that would be suspicious.
   dialoguesNight1:
@@ -130,7 +130,7 @@ MonoBehaviour:
     - You want to check my teeth? I know they look a bit... different.
     hearOutDialogue: 
   - featureName: False Smile
-    featureImage: {fileID: 0}
+    featureImage: {fileID: 21300000, guid: 9d4b7135992db3140906a508f09a3259, type: 3}
     featureDialogues:
-    - I can't. I'm sorry.
+    - ...
     hearOutDialogue: 

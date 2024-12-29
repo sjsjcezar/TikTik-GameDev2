@@ -60,6 +60,7 @@ public class NPCDialogueManager : MonoBehaviour
     public Image featureImage;
     public Image featureImageEyes;
     public Image featureImageTeeth;
+    public Image featureImageFalseSmile;
 
     public PlayerMovement playerMovement;
 
@@ -358,6 +359,11 @@ public class NPCDialogueManager : MonoBehaviour
                 featureImageTeeth.sprite = selectedFeature.featureImage;
                 featureImageTeeth.gameObject.SetActive(true); // Show the feature image
             }
+            else if (featureName == "False Smile")
+            {
+                featureImageFalseSmile.sprite = selectedFeature.featureImage;
+                featureImageFalseSmile.gameObject.SetActive(true); // Show the feature image
+            }
             else
             {
                 featureImage.sprite = selectedFeature.featureImage;
@@ -416,6 +422,10 @@ public class NPCDialogueManager : MonoBehaviour
         if (featureImageTeeth != null)
         {
             featureImageTeeth.gameObject.SetActive(false); // Hide the feature image
+        }
+        if (featureImageFalseSmile != null)
+        {
+            featureImageFalseSmile.gameObject.SetActive(false); // Hide the feature image
         }
     }
 
@@ -570,6 +580,10 @@ public class NPCDialogueManager : MonoBehaviour
         if (featureImageTeeth != null)
         {
             featureImageTeeth.gameObject.SetActive(false);
+        }
+        if (featureImageFalseSmile != null)
+        {
+            featureImageFalseSmile.gameObject.SetActive(false);
         }
 
         buttonsPanel.SetActive(false);

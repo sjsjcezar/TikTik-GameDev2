@@ -46,9 +46,10 @@ MonoBehaviour:
   - They shouldn't.
   hearOutDialogues3:
   - Ah, my teeth?
-  - "The world\u2019s not pretty anymore; neither am I."
+  - "The world\u2019s not pretty anymore; neither my teeth."
   hearOutDialogues4:
-  - "I could smile... if you weren\u2019t so afraid of what you\u2019d see."
+  - Are you really doing smile checks on everyone?
+  - Goodluck.
   dialoguesNight1:
   - Hi there.
   dialoguesNight2:
@@ -108,10 +109,10 @@ MonoBehaviour:
   - featureName: Sharp Teeth
     featureImage: {fileID: 21300000, guid: f7d478b00f93c62439cdafe0d4a38f1e, type: 3}
     featureDialogues:
-    - I promise I am not concealing anything
+    - I am not concealing anything.
     hearOutDialogue: 
   - featureName: False Smile
-    featureImage: {fileID: 0}
+    featureImage: {fileID: 21300000, guid: 89b7dcc1684f988408b6a6d250528a19, type: 3}
     featureDialogues:
-    - I do not think it will be convincing.
+    - "I could smile... if you weren\u2019t so afraid of what you\u2019d see."
     hearOutDialogue: 

@@ -46,8 +46,10 @@ MonoBehaviour:
   hearOutDialogues3:
   - Teeth are for survival, not for show.
   hearOutDialogues4:
-  - Hmph! Even in this damned wasteland, I am still smiling, kid.
+  - Even in this damned wasteland, I am still smiling, kid.
   - Word of advice, don't just fucking tell someone to smile.
+  - You don't force a smile, dipshit.
+  - Save your energy and trust your fucking intuition for once.
   dialoguesNight1:
   - Hi there.
   dialoguesNight2:
@@ -118,7 +120,7 @@ MonoBehaviour:
     - Let's get this over with.
     hearOutDialogue: 
   - featureName: False Smile
-    featureImage: {fileID: 0}
+    featureImage: {fileID: 21300000, guid: c3497ca85bddf9b4885414ac6784fa8e, type: 3}
     featureDialogues:
     - You're asking me to smile?
     hearOutDialogue: 

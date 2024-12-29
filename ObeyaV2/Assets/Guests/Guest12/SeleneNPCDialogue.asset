@@ -145,7 +145,7 @@ MonoBehaviour:
     - Sure, if it'll ease your mind.
     hearOutDialogue: 
   - featureName: False Smile
-    featureImage: {fileID: 0}
+    featureImage: {fileID: 21300000, guid: 1bede588ef9440b4991fbceae5418ac8, type: 3}
     featureDialogues:
     - I put on a smile everyday my dear.
     hearOutDialogue: 

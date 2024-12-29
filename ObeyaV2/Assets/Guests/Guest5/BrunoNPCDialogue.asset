@@ -20,10 +20,10 @@ MonoBehaviour:
   - But the real nightmare? The way they stare at you... like they know you.
   eclipseResponses:
   - "Only that it\u2019s as endless as it feels."
-  - " Some people used to say it\u2019s a punishment."
+  - "Some people used to say it\u2019s a punishment."
   - "Me? I think it\u2019s just life finally showing its true colors."
   killDialogues:
-  - Heh... guest the joke's on me after a-
+  - I thought I had it all calcula-
   hearOutDialogues: []
   hearOutDialogues1:
   - Long arms?
@@ -39,15 +39,16 @@ MonoBehaviour:
   - Teeth?
   - "Still good for chomping, don\u2019t you think?"
   hearOutDialogues4:
-  - No can do.
   - There's nothing to smile, kid.
+  - Do you think smiling is a reliable way to spot an aswang?
+  - Think again.
   dialoguesNight1:
   - "Thanks for letting ol\u2019 Bruno crash here."
   - "Don\u2019t worry, I\u2019m good company!"
   dialoguesNight2:
   - "Thanks for letting ol\u2019 Bruno crash here."
   - "By the way... These walls feel thin, don\u2019t they?"
-  - " Like... they\u2019re breathing."
+  - "Like... they\u2019re breathing."
   dialoguesNight3:
   - Funny thing about survival...
   - "Sometimes it makes you wonder if it\u2019s worth it."
@@ -100,7 +101,7 @@ MonoBehaviour:
     - Just don't expect anything fancy.
     hearOutDialogue: 
   - featureName: False Smile
-    featureImage: {fileID: 0}
+    featureImage: {fileID: 21300000, guid: 5eef0054ba289084d814231543ab683a, type: 3}
     featureDialogues:
-    - I'm not really in the mood, but okay.
+    - No can do.
     hearOutDialogue: 

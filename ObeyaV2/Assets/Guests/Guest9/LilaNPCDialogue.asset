@@ -26,18 +26,18 @@ MonoBehaviour:
   - "One moment, someone\u2019s right beside you, and the next... they\u2019re gone."
   - "It\u2019s like the dark itself swallows them whole."
   killDialogues:
-  - I only wanted some peace and qui-
+  - I HOPE THE ASWANGS EAT YOU ALIV-
   hearOutDialogues: []
   hearOutDialogues1:
   - My arms?
   - Just the same as always... I think.
   hearOutDialogues2:
   - "Eyes like mine don\u2019t lie."
-  - "They\u2019re just... tired."
+  - "They\u2019re just... "
+  - Tired.
   hearOutDialogues3:
   - Teeth?
   - Do they look strange to you?
-  - "I\u2019ve... never noticed."
   hearOutDialogues4:
   - "I\u2019d smile if I knew how to anymore."
   dialoguesNight1:
@@ -45,8 +45,7 @@ MonoBehaviour:
   dialoguesNight2:
   - What a day.
   dialoguesNight3:
-  - Thank you.
-  - " I\u2019ll do my best not to be a burden."
+  - "I\u2019ll do my best not to be a burden."
   dialoguesNight4:
   - "The stars... they\u2019re gone."
   - What kind of world loses its stars?
@@ -97,7 +96,7 @@ MonoBehaviour:
     - Alright, but don't... don't overthink it.
     hearOutDialogue: 
   - featureName: False Smile
-    featureImage: {fileID: 0}
+    featureImage: {fileID: 21300000, guid: 6cb17eadceea6294385a15ac8c4337bb, type: 3}
     featureDialogues:
-    - If I can manage one...
+    - What? A smile?
     hearOutDialogue: 

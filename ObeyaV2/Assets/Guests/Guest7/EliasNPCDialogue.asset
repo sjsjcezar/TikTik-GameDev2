@@ -16,19 +16,28 @@ MonoBehaviour:
   npcSprite: {fileID: 21300000, guid: 36790c7b7092f5a48b77832edec6be11, type: 3}
   killedNpcSprite: {fileID: 21300000, guid: 53304fa7028b0e34dbf8005a84ac4992, type: 3}
   aswangResponses:
-  - Vicious, cunning, and downright unnatural.
-  - "They hunt in the dark, and they don\u2019t make mistakes often."
-  - "If you\u2019ve got light, use it. If you don\u2019t, you\u2019re asking for
-    trouble."
-  - "And whatever you do, don\u2019t think you can outrun them."
+  - My mother once told me that you can tell there's an aswang if you hear the cries
+    of the Barukikik.
+  - Honestly, I don't even know what that is.
+  - We live from another region far away from here, so it might go by a different
+    name here.
+  - "Or maybe Barukikik is a common term\u2014if you\u2019ve heard of it, then there
+    you have it."
+  - Sorry I couldn't be more helpful.
+  - You can try throwing garlic at them?
+  - Haha!
   eclipseResponses:
   - "All I know is it\u2019s not normal\u2014not the way night\u2019s supposed to
     fall."
-  - " It\u2019s spreading, too, like a sickness."
+  - "It\u2019s spreading, too, like a sickness."
   - "My guess? Someone tampered with something they shouldn\u2019t have."
   - "And now we\u2019re all stuck dealing with the fallout."
+  - Just a theory of course.
+  - And...
+  - I've heard that from the locals.
+  - I don't know if this information is helpful to you.
   killDialogues:
-  - I thought I had it all calculate-
+  - Oh God, put that thing down, PLEASE-
   hearOutDialogues: []
   hearOutDialogues1:
   - My arms?
@@ -40,7 +49,10 @@ MonoBehaviour:
   - Still clean, even in this mess of a world.
   - Hope that checks out.
   hearOutDialogues4:
-  - "I\u2019ll smile when there\u2019s something worth smiling about."
+  - Look. I don't know what's your purpose for that.
+  - But I don't think you can just force people to smile and expect that they're
+    an aswang.
+  - Don't you think?
   dialoguesNight1:
   - Hi there.
   dialoguesNight2:
@@ -110,7 +122,7 @@ MonoBehaviour:
     - Just don't just too harshly.
     hearOutDialogue: 
   - featureName: False Smile
-    featureImage: {fileID: 0}
+    featureImage: {fileID: 21300000, guid: 64285c4a0f065c943a68a37e361b0cfd, type: 3}
     featureDialogues:
     - It's been a while since I've had a reason.
     hearOutDialogue: 

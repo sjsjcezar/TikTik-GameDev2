@@ -51,17 +51,16 @@ MonoBehaviour:
   - You are quite paranoid, yes?
   - I understand the caution.
   dialoguesNight1:
-  - "You didn\u2019t have to help me, but you did."
-  - " I\u2019ll remember that."
+  - Your house is lovely.
   dialoguesNight2:
   - "They\u2019re out there."
-  - Watching, waiting. I can feel it.
+  - Watching, waiting.
   dialoguesNight3:
   - "Do you think there\u2019s a way to stop them?"
   - Or are we all just delaying the inevitable?
   dialoguesNight4:
-  - "They\u2019re inside my head."
-  - "Their whispers... they\u2019re getting louder."
+  - Such sinister whispers...
+  - They're getting louder.
   dialoguesNight5: []
   introductoryDialogue:
   - "Good evening. I hope you don\u2019t mind me intruding. It\u2019s rare to find
@@ -96,7 +95,7 @@ MonoBehaviour:
   - featureName: Elongated Limbs
     featureImage: {fileID: 21300000, guid: 6091f1605625aad47bd402af1728001a, type: 3}
     featureDialogues:
-    - 'So, you want to check my limbs? Sure, I get it. '
+    - I have long limbs. But hear me out.
     hearOutDialogue: 
   - featureName: Dark Eyes
     featureImage: {fileID: 21300000, guid: d4ce5113201ae204195af3002450db4e, type: 3}
@@ -109,7 +108,7 @@ MonoBehaviour:
     - You may look at my teeth.
     hearOutDialogue: 
   - featureName: False Smile
-    featureImage: {fileID: 0}
+    featureImage: {fileID: 21300000, guid: c5d2f02055b6e3b4584a564411a23992, type: 3}
     featureDialogues:
-    - You want me to smile?
+    - Quite paranoid, yes?
     hearOutDialogue: 

@@ -120,7 +120,7 @@ MonoBehaviour:
     - My t-teeth?
     hearOutDialogue: 
   - featureName: False Smile
-    featureImage: {fileID: 0}
+    featureImage: {fileID: 21300000, guid: 63adbf8da4f72ac42a0c5a67301de072, type: 3}
     featureDialogues:
     - I don't really feel like it...
     hearOutDialogue: 

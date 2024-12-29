@@ -86,7 +86,8 @@ MonoBehaviour:
   - "I\u2019m Amnah, at your service!"
   - You know, I used to think names were just labels, nothing more than sounds we
     answered to.
-  - But lately, with all this eternal darkness around, I see them as something more.
+  - But lately, with all this eternal darkness shenanigans, I see them as something
+    more.
   - A name is like a little spark, a flicker of light that refuses to go out, even
     when the shadows try to snuff it out.
   - "It\u2019s a reminder that we\u2019re still here, still fighting, still hoping
@@ -95,7 +96,7 @@ MonoBehaviour:
   option1_1Responses:
   - Where am I from, you ask?
   - "Ah, that\u2019s a story in itself! I hail from a small village, nestled between
-    emerald hills and shimmering rice fields."
+    emerald hills and the rice fields."
   - You see, life there is simple yet beautiful.
   - The sun rises with a promise of warmth, and the evenings are filled with laughter
     from the locals sharing tales under the stars.
@@ -105,11 +106,10 @@ MonoBehaviour:
   - "It\u2019s not easy, though\u2014darkness has its way of creeping in, but we
     fight it with every smile and every meal shared together."
   option2Responses:
-  - What brings me here? Well, I heard whispers of a sanctuary amid the shadows,
-    a place where light still flickers against the eternal darkness.
-  - Those whispers led me here, to your place.
-  - Please tell me those whispers were right, that this place is a sanctuary from
-    the dangers of the changed world.
+  - 'What brought me here? I heard some talk about a safe haven in this place. '
+  - So, here I am.
+  - "Tell me it\u2019s true\u2014tell me this place really is a refuge from the madness
+    out there."
   option2_1Responses:
   - Am I alone? Perhaps in body, but my spirit carries the voices of my village,
     and I know I'm never truly alone in this fight.
@@ -119,7 +119,7 @@ MonoBehaviour:
   option1_1ButtonText: Where are you from?
   option2ButtonText: What brings you here?
   option2_1ButtonText: Are you alone?
-  insideDialogueOption1: ' What do you know about Aswangs?'
+  insideDialogueOption1: What do you know about Aswangs?
   insideDialogueOption2: Do you know about this "Eternal Eclipse?"
   insideDialogueOption3: I need to check on you.
   insideDialogueOption4: I need to go.
@@ -140,7 +140,7 @@ MonoBehaviour:
     - Here.
     hearOutDialogue: 
   - featureName: False Smile
-    featureImage: {fileID: 0}
+    featureImage: {fileID: 21300000, guid: b03640d4c1d180f4fb1a7c3512c72356, type: 3}
     featureDialogues:
-    - Don't know why you're asking me that.
+    - Don't know why you're asking me that but sure.
     hearOutDialogue: 

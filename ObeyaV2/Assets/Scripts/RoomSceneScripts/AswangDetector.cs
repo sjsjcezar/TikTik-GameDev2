@@ -6,8 +6,8 @@ public class AswangDetector : MonoBehaviour
     private AudioSource audioSource;
     private GuestManager guestManager;
     private NightManager nightManager;
-    private bool hasPlayedCrowTonight = false;
-    private bool hasCheckedNightFour = false;  // New flag to track if we've done the night 4 check
+    private float soundTimer = 0f;
+    private const float SOUND_INTERVAL = 30f; // 30 seconds
 
     void Start()
     {
@@ -19,11 +19,15 @@ public class AswangDetector : MonoBehaviour
 
     void Update()
     {
-        // Only check if we haven't done the night 4 check yet
-        if (!hasCheckedNightFour && nightManager != null && nightManager.currentNight == 4)
+        if (nightManager != null && nightManager.currentNight == 4)
         {
-            CheckForAswang();
-            hasCheckedNightFour = true;  // Mark that we've done the night 4 check
+            soundTimer += Time.deltaTime;
+            
+            if (soundTimer >= SOUND_INTERVAL)
+            {
+                CheckForAswang();
+                soundTimer = 0f; // Reset timer
+            }
         }
     }
 
@@ -31,14 +35,20 @@ public class AswangDetector : MonoBehaviour
     {
         if (nightManager.guestList != null && nightManager.guestList.Count > 0)
         {
+            bool aswangFound = false;
             foreach (GameObject guest in nightManager.guestList)
             {
                 // Check if the guest's name or tag contains "Aswang"
                 if (guest.CompareTag("Aswang") || guest.name.Contains("Aswang"))
                 {
-                    PlayCrowSound();
+                    aswangFound = true;
                     break;
                 }
+            }
+
+            if (aswangFound)
+            {
+                PlayCrowSound();
             }
         }
     }

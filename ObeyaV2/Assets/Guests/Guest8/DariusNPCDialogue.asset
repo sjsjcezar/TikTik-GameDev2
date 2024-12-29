@@ -42,9 +42,9 @@ MonoBehaviour:
   - My teeth?
   - Sharp as ever.
   hearOutDialogues4:
-  - A smile?
-  - Sure.
-  - "Let\u2019s pretend everything\u2019s fine, huh?"
+  - Do you like what you see?
+  - Did you find what you need?
+  - Thought so.
   dialoguesNight1:
   - Hi there.
   dialoguesNight2:
@@ -103,7 +103,7 @@ MonoBehaviour:
     - Guess it's better than asking for blood.
     hearOutDialogue: 
   - featureName: False Smile
-    featureImage: {fileID: 0}
+    featureImage: {fileID: 21300000, guid: 16956c6b5f762274a9af0e0261eb3917, type: 3}
     featureDialogues:
     - Heh, that's rich. I'll do my best.
     hearOutDialogue: 

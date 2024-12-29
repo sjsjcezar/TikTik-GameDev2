@@ -102,7 +102,7 @@ MonoBehaviour:
     - Go ahead. Just don't flinch.
     hearOutDialogue: 
   - featureName: False Smile
-    featureImage: {fileID: 0}
+    featureImage: {fileID: 21300000, guid: 23aede8dc063a6246b04b4eafd02f8a7, type: 3}
     featureDialogues:
     - Haha! I always have an awkward smile.
     hearOutDialogue: 
