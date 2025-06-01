@@ -82,5 +82,16 @@ Your ultimate goal? **Protect the innocent. Banish the wicked. Survive five harr
 
 ---
 
-## 📦 Repository Structure (Recommended)
+## Acknowledgement:
+Authors:
+		- bluecarrot16
+		- JaidynReiman
+		- Benjamin K. Smith (BenCreating)
+		- Evert
+		- Eliza Wyatt (ElizaWy)
+		- TheraHedwig
+		- MuffinElZangano
+		- Durrani
+		- Johannes Sjölund (wulax)
+		- Stephen Challener (Redshrike)
 
