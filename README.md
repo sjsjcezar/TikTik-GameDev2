@@ -3,7 +3,7 @@
 **TikTik** is a top-down horror RPG set in a world gripped by an eternal eclipse. As mysterious transformations turn ordinary people into terrifying “aswangs,” you must survive the night, make critical decisions, and uncover the truth behind the darkness.
 
 ---
-##  The Team Concept
+##  The Team!
 - Samuel Cezar
 - Reiven Lee
 - Samantha Caoile
