@@ -4,9 +4,12 @@
 
 ---
 ##  The Team!
-- Samuel Cezar
-- Reiven Lee
-- Samantha Caoile
+- Samuel Cezar - Lead Developer
+- Reiven Lee - Co Developer
+- Samantha Caoile - Artist
+
+> This project is a student-led indie Horror Game created as part of our requirement for the CGAE203, 2D Game Development Class.
+> Do note that this repository contains all the Unity Files. If you want to experience the game itself, you'll have to build it first.
 
 ### 📜 Game Plot
 
@@ -49,8 +52,8 @@ Your ultimate goal? **Protect the innocent. Banish the wicked. Survive five harr
 ## 🎯 Goals and Objectives
 
 - ✅ **Accept All Possible Guests:** Shelter as many true survivors as you can.
-- 🔪 **Identify All Aswangs:** Catch and eliminate aswangs using deduction and logic.
-- 🌘 **Survive Until Night 5:** Balance trust, fear, and resource management to live through the nightmare.
+- 🔪 **Identify All Aswangs:** Do not let any aswangs into your house! Yer gut feeling is your ally.
+- 🌘 **Survive Until Night 5:** Balance trust, fear, and energy management to live through the nightmare.
 
 ---
 
@@ -58,27 +61,13 @@ Your ultimate goal? **Protect the innocent. Banish the wicked. Survive five harr
 
 ### 👤 Character Assets
 - **Main Player**
-- **Guests 1–12** (Varied personalities and possible aswangs)
+- **Guests 1–12**
 
 ### 🏚️ Environment Assets
 - **Room** (Safehouse interior)
 - **Door** (Main point of interaction)
 - **Radio** (Primary clue provider)
 
-### 🖥️ UI Elements
-- **Title Screen**
-  - Start
-  - Settings
-  - Quit
-- **Door Interaction Dialogue Boxes**
-  - Option 1 / Option 1.1
-  - Accept Guest
-  - Option 2 / Option 2.2
-  - Reject Guest
-- **Room Interaction Dialogue Boxes**
-  - Option 1 to Option 4
-- **Energy System**
-- **Journal System** (Logs clues and guest details)
 
 ---
 
