@@ -5,9 +5,9 @@
 ![TikTik Cover](Tiktik_1.png)
 ---
 ##  The Team!
-- Samuel Cezar - Lead Developer
-- Reiven Lee - Co Developer
-- Samantha Caoile - Artist
+- Samuel Cezar
+- Reiven Lee
+- Samantha Caoile
 
 > This project is a student-led indie Horror Game created as part of our requirement for the CGAE203, 2D Game Development Class.
 > Do note that this repository contains all the Unity Files. If you want to experience the game itself, you'll have to build it first.
