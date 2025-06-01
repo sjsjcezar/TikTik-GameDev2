@@ -7,7 +7,6 @@
 - Samuel Cezar
 - Reiven Lee
 - Samantha Caoile
-## 🌑 Game Concept
 
 ### 📜 Game Plot
 
