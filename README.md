@@ -4,7 +4,7 @@
 
 ![TikTik Cover](Tiktik_1.png)
 ---
-##  The Team!
+##  2Sam1Rei 👾🎮 Team!
 - Samuel Cezar
 - Reiven Lee
 - Samantha Caoile
