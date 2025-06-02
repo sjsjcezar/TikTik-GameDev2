@@ -4,7 +4,7 @@
 
 ![TikTik Cover](Tiktik_1.png)
 ---
-##  2Sam1Rei 👾🎮 Team!
+##  Developed by: 2Sam1Rei 👾🎮
 - Samuel Cezar
 - Reiven Lee
 - Samantha Caoile
