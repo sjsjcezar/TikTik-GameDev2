@@ -69,6 +69,13 @@ Your ultimate goal? **Protect the innocent. Banish the wicked. Survive five harr
 - **Door** (Main point of interaction)
 - **Radio** (Primary clue provider)
 
+## ❓ What's Next?
+- [ ] Make original 2D pixel characters assets
+- [ ] Add immersive sound effects
+- [ ] Expand the roster of NPCs
+- [ ] Enhance storytelling
+- [ ] Polish everything!
+
 
 ---
 
