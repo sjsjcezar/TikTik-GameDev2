@@ -12,6 +12,13 @@
 > This project is a student-led indie Horror Game created as part of our requirement for the CGAE203, 2D Game Development Class.
 > Do note that this repository contains all the Unity Files. If you want to experience the game itself, you'll have to build it first.
 
+---
+
+### 🎮 How Can We Play This Game?
+- ⚠️ Sorry! You'll need to install the Unity Editor and build the game yourself.
+- 🚀 The team plans to release it on itch.io once we're satisfied with the results!
+---
+
 ### 📜 Game Plot
 
 An eternal eclipse has enveloped the Earth. In the chaos, some humans have turned into **aswangs**—supernatural creatures from Philippine folklore. Their origins are unknown, and they hide among the remaining survivors.
@@ -69,9 +76,6 @@ Your ultimate goal? **Protect the innocent. Banish the wicked. Survive five harr
 - **Door** (Main point of interaction)
 - **Radio** (Primary clue provider)
   
-### 🎮 How Can We Play This Game?
-- ⚠️ You'll need to install the Unity Editor and build the game yourself.
-- 🚀 The team plans to release it on itch.io once we're satisfied with the results!
 
 ## ❓ What's Next?
 - [ ] Make original 2D pixel characters assets
