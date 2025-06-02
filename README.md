@@ -68,12 +68,16 @@ Your ultimate goal? **Protect the innocent. Banish the wicked. Survive five harr
 - **Room** (Safehouse interior)
 - **Door** (Main point of interaction)
 - **Radio** (Primary clue provider)
+  
+### 🎮 How Can We Play This Game?
+- ⚠️ You'll need to install the Unity Editor and build the game yourself.
+- 🚀 The team plans to release it on itch.io once we're satisfied with the results!
 
 ## ❓ What's Next?
 - [ ] Make original 2D pixel characters assets
 - [ ] Add immersive sound effects
 - [ ] Expand the roster of NPCs
-- [ ] Enhance storytelling
+- [ ] Enhance storytelling and dialogue features!
 - [ ] Polish everything!
 
 
